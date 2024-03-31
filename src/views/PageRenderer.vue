@@ -1,9 +1,9 @@
 <script setup>
 import { defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
-import Error from '@/components/states/Error.vue'
-import Credits from '@/components/states/Credits.vue'
-import Loading from '@/components/states/Loading.vue'
+import Error from '@/components/states/ErrorPage.vue'
+import Credits from '@/components/states/CreditsPage.vue'
+import Loading from '@/components/states/LoadingPage.vue'
 
 const route = useRoute()
 
@@ -14,7 +14,6 @@ const Page = defineAsyncComponent({
   errorComponent: Error,
   timeout: 3000
 })
-// TODO : change header title on page change
 </script>
 
 <template>

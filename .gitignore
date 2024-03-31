@@ -30,4 +30,6 @@ coverage
 *.tsbuildinfo
 archive
 
-/public/others
+/public/Images/*
+!public/Images/Map
+!public/Images/*.png

@@ -57,7 +57,6 @@ function init() {
   let map = document.getElementById('map')
   let image = document.getElementById('elem-map')
   let markers = map.querySelectorAll('.marker')
-  let coordinatesElement = document.getElementById('coordinates')
   let isDragging = false
   let startCoords = { x: 0, y: 0 }
   let startScrollLeft = 0
@@ -149,7 +148,6 @@ onMounted(() => init())
       <p>(X: -8, Y: 27)</p>
       <p>Located on top of a server</p>
     </MapMarker>
-    <!-- TODO: finish placing all the markers -->
     <!--
     <div class="marker" id="Bmarker" style="top: 2020px; left: 2000px; "
          @click="showInfo('Burger', 'Coordinates', this)">

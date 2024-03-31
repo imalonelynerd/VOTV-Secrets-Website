@@ -1,23 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import MakdownRenderer from '@/views/PageRenderer.vue'
-import Map from '@/views/Map.vue'
+import PageRenderer from '@/views/PageRenderer.vue'
+import InteractiveMap from '@/views/InteractiveMap.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      redirect: '/home'
+      redirect: '/HomePage'
+    },
+    {
+      path: '/InteractiveMap',
+      name: 'InteractiveMap',
+      component: InteractiveMap
     },
     {
       path: '/:id',
-      name: 'renderer',
-      component: MakdownRenderer
-    },
-    {
-      path: '/map',
-      name: 'map',
-      component: Map
+      name: 'PageRenderer',
+      component: PageRenderer
     }
   ]
 })

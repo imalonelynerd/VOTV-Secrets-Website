@@ -55,11 +55,6 @@ const isHovered = ref(false)
   background: var(--pressed2);
 }
 
-.SideFolder > div:first-of-type:active {
-  background: var(--pressed);
-  border: var(--border-pressed);
-}
-
 .SideFolder > div:first-of-type > p {
   margin: 0;
 }

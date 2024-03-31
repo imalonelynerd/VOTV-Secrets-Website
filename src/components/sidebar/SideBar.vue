@@ -21,47 +21,50 @@ watch(name, (newName) => (isShown.value = newName !== 'map'))
       <SB @click="$router.push('/')">
         <p>Home</p>
       </SB>
-      <SB @click="$router.push('/objects')">
+      <SB @click="$router.push('/ObjectsPage')">
         <p>Objects</p>
       </SB>
-      <SB @click="$router.push('/entities')">
+      <SB @click="$router.push('/EntitiesPage')">
         <p>Entities</p>
       </SB>
       <SideFolder title="Worlds">
-        <SB>Test Levels</SB>
-        <SB>Anomaly Worlds</SB>
-        <SB>Other Worlds</SB>
+        <SB @click="$router.push('/WorldsPage')">[DIR]</SB>
+        <SB @click="$router.push('/TestLevels')">Test Levels</SB>
+        <SB @click="$router.push('/AnomalyWorlds')">Anomaly Worlds</SB>
+        <SB @click="$router.push('/OtherWorlds')">Other Worlds</SB>
       </SideFolder>
       <SideFolder title="Signals">
-        <SB>Deep Space Signals</SB>
-        <SB>Planet Signals</SB>
-        <SB>Special Signals</SB>
-        <SB>Sig Gen Signals</SB>
-        <SB>Other Signals</SB>
+        <SB @click="$router.push('/SignalsPage')">[DIR]</SB>
+        <SB @click="$router.push('/DeepSpaceSignals')">Deep Space Signals</SB>
+        <SB @click="$router.push('/PlanetSignals')">Planet Signals</SB>
+        <SB @click="$router.push('/SpecialSignals')">Special Signals</SB>
+        <SB @click="$router.push('/SigGenSignals')">Sig Gen Signals</SB>
+        <SB @click="$router.push('/OtherSignals')">Other Signals</SB>
       </SideFolder>
-      <SideFolder title="Events">
-        <SB>Storymode Events</SB>
-        <SB>Ariral Rep Events</SB>
-        <SB>Triggerable Events</SB>
-        <SB>Random Events</SB>
-        <SB>3:33 AM Events</SB>
+      <SideFolder title="Events" >
+        <SB @click="$router.push('/EventsPage')">[DIR]</SB>
+        <SB @click="$router.push('/StoryModeEvents')">Storymode Events</SB>
+        <SB @click="$router.push('/AriralRepEvents')">Ariral Rep Events</SB>
+        <SB @click="$router.push('/TriggerableEvents')">Triggerable Events</SB>
+        <SB @click="$router.push('/RandomEvents')">Random Events</SB>
+        <SB @click="$router.push('/333amEvents')">3:33 AM Events</SB>
       </SideFolder>
-      <SB>
+      <SB @click="$router.push('/StructuresPage')">
         <p>Structures</p>
       </SB>
-      <SB>
+      <SB @click="$router.push('/ConsoleCommands')">
         <p>Console Commands</p>
       </SB>
-      <SB>
+      <SB @click="$router.push('/DreamsPage')">
         <p>Dreams</p>
       </SB>
-      <SB>
+      <SB @click="$router.push('/AchievementsPage')">
         <p>Achievements</p>
       </SB>
-      <SB>
+      <SB @click="$router.push('/GameEndings')">
         <p>Game Endings</p>
       </SB>
-      <SB @click="$router.push('/map')">
+      <SB @click="$router.push('/InteractiveMap')">
         <p>Map of Everything</p>
       </SB>
     </div>
@@ -82,12 +85,12 @@ watch(name, (newName) => (isShown.value = newName !== 'map'))
         </template>
       </SideButtons>
       <SB @click="isShown = false">
-        <p>&lt&lt&lt</p>
+        <p>&lt;&lt;&lt;</p>
       </SB>
     </div>
   </header>
   <SB class="revertHide" v-if="isShown === false" @click="isShown = true">
-    <p>&gt&gt&gt</p>
+    <p>&gt;&gt;&gt;</p>
   </SB>
 </template>
 
@@ -118,7 +121,7 @@ watch(name, (newName) => (isShown.value = newName !== 'map'))
   overflow: scroll;
 }
 
-.SideButton.revertHide {
+.revertHide {
   z-index: 99;
   position: absolute;
   bottom: 8px;
