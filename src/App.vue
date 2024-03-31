@@ -1,11 +1,11 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import SideBar from '@/components/SideBar.vue'
+import SideBar from '@/components/sidebar/SideBar.vue'
 </script>
 
 <template>
-    <SideBar />
-    <RouterView class="Content"/>
+  <SideBar />
+  <RouterView :key="$route.params.id"/>
 </template>
 
 <style scoped>
