@@ -12,7 +12,7 @@ const isShown = ref(false)
 const route = useRoute()
 const name = computed(() => route.name)
 
-watch(name, newName => isShown.value = (newName !== 'map'))
+watch(name, (newName) => (isShown.value = newName !== 'map'))
 </script>
 
 <template>
@@ -67,7 +67,8 @@ watch(name, newName => isShown.value = (newName !== 'map'))
     </div>
     <div>
       <SB important="true">
-        <p>Last updated : <b>0.7.0</b></p> <!-- fetchable ? -->
+        <p>Last updated : <b>0.7.0</b></p>
+        <!-- fetchable ? -->
       </SB>
       <SideButtons>
         <template #1>
@@ -80,17 +81,13 @@ watch(name, newName => isShown.value = (newName !== 'map'))
           <DiscordIcon c="#FFFFFF" s="1em" />
         </template>
       </SideButtons>
-      <SB
-        @click="isShown = false">
-        <p> &lt&lt&lt </p>
+      <SB @click="isShown = false">
+        <p>&lt&lt&lt</p>
       </SB>
     </div>
   </header>
-  <SB
-    class="revertHide"
-    v-if="isShown === false"
-    @click="isShown = true">
-    <p> &gt&gt&gt </p>
+  <SB class="revertHide" v-if="isShown === false" @click="isShown = true">
+    <p>&gt&gt&gt</p>
   </SB>
 </template>
 

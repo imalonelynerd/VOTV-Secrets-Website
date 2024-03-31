@@ -12,15 +12,13 @@ const isShown = ref(false)
   </SideButton>
   <div class="SoundListener" v-if="isShown">
     <audio controls>
-      <source :src="src" type="audio/mpeg">
+      <source :src="src" type="audio/mpeg" />
     </audio>
-    <SideButton
-      @click="isShown = !isShown"><p>Back</p></SideButton>
+    <SideButton @click="isShown = !isShown"><p>Back</p></SideButton>
   </div>
 </template>
 
 <style>
-
 .SoundListener {
   position: absolute;
   top: 64px;

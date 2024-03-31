@@ -5,8 +5,7 @@ import SideBar from '@/components/sidebar/SideBar.vue'
 
 <template>
   <SideBar />
-  <RouterView :key="$route.params.id"/>
+  <RouterView :key="$route.params.id" />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

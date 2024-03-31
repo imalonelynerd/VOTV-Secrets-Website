@@ -28,5 +28,4 @@ import SideButton from '@/components/sidebar/SideButton.vue'
 .SideButtons > * {
   flex-grow: 1;
 }
-
 </style>

@@ -3,10 +3,8 @@ defineProps(['x', 'y', 'img', 'tag', 'desc'])
 </script>
 
 <template>
-  <div class="MapMarker marker"
-       :id="tag"
-       :style="`left: ${x}px; top: ${y}px;`">
-    <img :src="`/Icons/MapMarkers/${img}.png`">
+  <div class="MapMarker marker" :id="tag" :style="`left: ${x}px; top: ${y}px;`">
+    <img :src="`/Icons/MapMarkers/${img}.png`" />
     <div>
       <slot></slot>
     </div>

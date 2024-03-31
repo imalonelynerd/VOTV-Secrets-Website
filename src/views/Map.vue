@@ -17,7 +17,7 @@ function ribbonAction(e) {
     case 1:
       moveMapHorizontally(50)
       break
-    default :
+    default:
       moveMapHorizontally(25)
       break
   }
@@ -34,20 +34,20 @@ function toggleMarkerVisibility(markerId) {
       let activeMarkers = document.querySelectorAll('.marker[id="' + activeMarkerSet + '"]')
       activeMarkers.forEach((m) => m.classList.add('hidden'))
       let newMarkers = document.querySelectorAll('.marker[id="' + markerId + '"]')
-      newMarkers.forEach(function(marker) {
+      newMarkers.forEach(function (marker) {
         marker.classList.remove('hidden')
       })
       activeMarkerSet = markerId
     } else {
       let allMarkers = document.querySelectorAll('.marker[id="SDmarker"], .marker[id="CSDmarker"]')
-      allMarkers.forEach(function(marker) {
+      allMarkers.forEach(function (marker) {
         marker.classList.add('hidden')
       })
       activeMarkerSet = ''
     }
   } else {
     let markers = document.querySelectorAll('.marker[id="' + markerId + '"]')
-    markers.forEach(function(marker) {
+    markers.forEach(function (marker) {
       marker.classList.toggle('hidden')
     })
   }
@@ -63,7 +63,7 @@ function init() {
   let startScrollLeft = 0
   let startScrollTop = 0
   let minZoomLevel = 0.5
-  map.addEventListener('mousedown', function(e) {
+  map.addEventListener('mousedown', function (e) {
     isDragging = true
     startCoords.x = e.clientX
     startCoords.y = e.clientY
@@ -71,17 +71,17 @@ function init() {
     startScrollTop = map.scrollTop
     e.preventDefault()
   })
-  map.addEventListener('mouseup', function() {
+  map.addEventListener('mouseup', function () {
     isDragging = false
   })
-  map.addEventListener('mousemove', function(e) {
+  map.addEventListener('mousemove', function (e) {
     if (!isDragging) return
     let dx = e.clientX - startCoords.x
     let dy = e.clientY - startCoords.y
     map.scrollLeft = startScrollLeft - dx
     map.scrollTop = startScrollTop - dy
   })
-  map.addEventListener('mousemove', function(e) {
+  map.addEventListener('mousemove', function (e) {
     let rect = map.getBoundingClientRect()
     let offsetX = e.clientX - rect.left
     let offsetY = e.clientY - rect.top
@@ -96,10 +96,10 @@ function init() {
     let offsetYCorrection = -5
     let mapX = Math.round(relativeX) - offsetXCorrection
     let mapY = Math.round(relativeY) - offsetYCorrection
-    x.value = Math.round((mapX * 0.437) + 2)
-    y.value = Math.round((mapY * 0.437) - 2)
+    x.value = Math.round(mapX * 0.437 + 2)
+    y.value = Math.round(mapY * 0.437 - 2)
   })
-  map.addEventListener('wheel', function(e) {
+  map.addEventListener('wheel', function (e) {
     e.preventDefault()
     let zoom = 2
     let zoomDelta = -e.deltaY * zoom
@@ -107,17 +107,20 @@ function init() {
     let newHeight = image.clientHeight + zoomDelta
     let offsetX = e.offsetX
     let offsetY = e.offsetY
-    if (newWidth >= map.clientWidth * minZoomLevel && newHeight >= map.clientHeight * minZoomLevel) {
+    if (
+      newWidth >= map.clientWidth * minZoomLevel &&
+      newHeight >= map.clientHeight * minZoomLevel
+    ) {
       let scale = newWidth / image.clientWidth
       image.style.width = newWidth + 'px'
       image.style.height = newHeight + 'px'
-      map.scrollLeft += offsetX * zoomDelta / image.clientWidth
-      map.scrollTop += offsetY * zoomDelta / image.clientHeight
-      markers.forEach(function(marker) {
+      map.scrollLeft += (offsetX * zoomDelta) / image.clientWidth
+      map.scrollTop += (offsetY * zoomDelta) / image.clientHeight
+      markers.forEach(function (marker) {
         let markerTop = parseFloat(marker.style.top)
         let markerLeft = parseFloat(marker.style.left)
-        let newMarkerTop = (markerTop * scale) + 'px'
-        let newMarkerLeft = (markerLeft * scale) + 'px'
+        let newMarkerTop = markerTop * scale + 'px'
+        let newMarkerLeft = markerLeft * scale + 'px'
         marker.style.top = newMarkerTop
         marker.style.left = newMarkerLeft
       })
@@ -126,16 +129,15 @@ function init() {
 }
 
 onMounted(() => init())
-
 </script>
 
 <template>
   <div id="map">
-    <img id="elem-map" src="/Images/Maps/Map.png" alt="Interactive Map">
+    <img id="elem-map" src="/Images/Maps/Map.png" alt="Interactive Map" />
     <MapMarker tag="Bmarker" y="2028" x="1907" img="2">
       <p>Burger:</p>
       <p>(X: -63, Y: 12)</p>
-      <p>Located under the bridge. </p>
+      <p>Located under the bridge.</p>
     </MapMarker>
     <MapMarker tag="Bmarker" y="1987" x="2007" img="2">
       <p>Burger</p>
@@ -1335,7 +1337,6 @@ onMounted(() => init())
 </template>
 
 <style>
-
 #map {
   overflow: hidden;
   position: absolute;

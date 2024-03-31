@@ -10,8 +10,7 @@ const isShown = ref(false)
   <img class="ImageView" @click="isShown = !isShown" :src="src" :alt="alt" />
   <div class="ImageViewer" v-if="isShown">
     <img :src="src" :alt="alt" />
-    <SideButton
-      @click="isShown = !isShown"><p>Back</p></SideButton>
+    <SideButton @click="isShown = !isShown"><p>Back</p></SideButton>
   </div>
 </template>
 
@@ -23,7 +22,7 @@ const isShown = ref(false)
   border: var(--border);
 }
 
-.ImageView:active{
+.ImageView:active {
   border: var(--border-pressed);
 }
 

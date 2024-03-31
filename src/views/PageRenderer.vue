@@ -8,13 +8,12 @@ import Loading from '@/components/states/Loading.vue'
 const route = useRoute()
 
 const Page = defineAsyncComponent({
-    loader: () => import(`@/pages/${route.params.id}.vue`),
-    loadingComponent: Loading,
-    delay: 0,
-    errorComponent: Error,
-    timeout: 3000
-  }
-)
+  loader: () => import(`@/pages/${route.params.id}.vue`),
+  loadingComponent: Loading,
+  delay: 0,
+  errorComponent: Error,
+  timeout: 3000
+})
 // TODO : change header title on page change
 </script>
 
@@ -37,7 +36,7 @@ const Page = defineAsyncComponent({
   align-items: stretch;
   overflow: scroll;
   gap: 16px;
-  background: url("/Images/Home.png") no-repeat center center;
+  background: url('/Images/Home.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -63,7 +62,9 @@ const Page = defineAsyncComponent({
   text-align: center;
 }
 
-.PageRenderer p, .PageRenderer a, .PageRenderer tr {
+.PageRenderer p,
+.PageRenderer a,
+.PageRenderer tr {
   font-size: 20px;
 }
 

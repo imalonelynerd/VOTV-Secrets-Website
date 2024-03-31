@@ -1,14 +1,14 @@
 :root {
-    --background: #333333;
-    --border-color: #808080;
-    --hover: #444444;
-    --hover2: #202020;
-    --pressed: #404040;
-    --pressed2: #101010;
-    --border: 2px outset var(--border-color);
-    --border-pressed: 2px inset var(--border-color);
-    --text: white;
-    --h1: white;
-    --h2: thistle;
-    --h3: blanchedalmond;
+  --background: #333333;
+  --border-color: #808080;
+  --hover: #444444;
+  --hover2: #202020;
+  --pressed: #404040;
+  --pressed2: #101010;
+  --border: 2px outset var(--border-color);
+  --border-pressed: 2px inset var(--border-color);
+  --text: white;
+  --h1: white;
+  --h2: thistle;
+  --h3: blanchedalmond;
 }

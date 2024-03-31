@@ -1,15 +1,15 @@
 <script setup>
-defineProps(["x","y"])
+defineProps(['x', 'y'])
 </script>
 
 <template>
-<div class="MapCoords">
-  <p>X : {{x}}, Y : {{y}}</p>
-</div>
+  <div class="MapCoords">
+    <p>X : {{ x }}, Y : {{ y }}</p>
+  </div>
 </template>
 
 <style scoped>
-.MapCoords{
+.MapCoords {
   z-index: 97;
   position: fixed;
   bottom: 8px;

@@ -7,20 +7,18 @@ const isHovered = ref(false)
 </script>
 
 <template>
-  <div class="SideFolder" @mouseover="isHovered=true" @mouseleave="isHovered=false">
+  <div class="SideFolder" @mouseover="isHovered = true" @mouseleave="isHovered = false">
     <div>
-      <img src="/Icons/folder.png">
+      <img src="/Icons/folder.png" />
       <p>{{ title }}</p>
     </div>
     <div v-if="isHovered">
-      <slot>
-      </slot>
+      <slot> </slot>
     </div>
   </div>
 </template>
 
 <style>
-
 .SideFolder {
   display: flex;
   flex-direction: column;

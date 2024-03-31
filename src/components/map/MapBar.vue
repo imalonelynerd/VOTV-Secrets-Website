@@ -1,5 +1,4 @@
 <script setup>
-
 import SB from '@/components/sidebar/SideButton.vue'
 
 defineEmits(['ribbonClicked', 'tabToggled'])
@@ -22,51 +21,50 @@ defineEmits(['ribbonClicked', 'tabToggled'])
     <hr />
     -->
     <div id="TabContainer">
-      <SB @click="$emit('tabToggled','Bmarker')">
-        <img src="/Icons/TabMarkers/2.png">
+      <SB @click="$emit('tabToggled', 'Bmarker')">
+        <img src="/Icons/TabMarkers/2.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Tmarker')">
-        <img src="/Icons/TabMarkers/0.png">
+      <SB @click="$emit('tabToggled', 'Tmarker')">
+        <img src="/Icons/TabMarkers/0.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Smarker')">
-        <img src='/Icons/TabMarkers/9.png'>
+      <SB @click="$emit('tabToggled', 'Smarker')">
+        <img src="/Icons/TabMarkers/9.png" />
       </SB>
-      <SB @click="$emit('tabToggled','SDmarker')">
-        <img src='/Icons/TabMarkers/8.png'>
+      <SB @click="$emit('tabToggled', 'SDmarker')">
+        <img src="/Icons/TabMarkers/8.png" />
       </SB>
-      <SB @click="$emit('tabToggled','CSDmarker')">
-        <img src="/Icons/TabMarkers/11.png">
+      <SB @click="$emit('tabToggled', 'CSDmarker')">
+        <img src="/Icons/TabMarkers/11.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Amarker')">
-        <img src='/Icons/TabMarkers/1.png'>
+      <SB @click="$emit('tabToggled', 'Amarker')">
+        <img src="/Icons/TabMarkers/1.png" />
       </SB>
-      <SB @click="$emit('tabToggled','DPTmarker')">
-        <img src="/Icons/TabMarkers/3.png">
+      <SB @click="$emit('tabToggled', 'DPTmarker')">
+        <img src="/Icons/TabMarkers/3.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Lmarker')">
-        <img src="/Icons/TabMarkers/6.png">
+      <SB @click="$emit('tabToggled', 'Lmarker')">
+        <img src="/Icons/TabMarkers/6.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Gmarker')">
-        <img src="/Icons/TabMarkers/4.png">
+      <SB @click="$emit('tabToggled', 'Gmarker')">
+        <img src="/Icons/TabMarkers/4.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Omarker')">
-        <img src="/Icons/TabMarkers/7.png">
+      <SB @click="$emit('tabToggled', 'Omarker')">
+        <img src="/Icons/TabMarkers/7.png" />
       </SB>
-      <SB @click="$emit('tabToggled','GDetectmarker')">
-        <img src="/Icons/TabMarkers/5.png">
+      <SB @click="$emit('tabToggled', 'GDetectmarker')">
+        <img src="/Icons/TabMarkers/5.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Emarker')">
-        <img src="/Icons/TabMarkers/10.png">
+      <SB @click="$emit('tabToggled', 'Emarker')">
+        <img src="/Icons/TabMarkers/10.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Pmarker')">
-        <img src="/Icons/TabMarkers/12.png">
+      <SB @click="$emit('tabToggled', 'Pmarker')">
+        <img src="/Icons/TabMarkers/12.png" />
       </SB>
-      <SB @click="$emit('tabToggled','Nmarker')">
-        <img src="/Icons/TabMarkers/13.png">
+      <SB @click="$emit('tabToggled', 'Nmarker')">
+        <img src="/Icons/TabMarkers/13.png" />
       </SB>
     </div>
   </div>
-
 </template>
 
 <style>

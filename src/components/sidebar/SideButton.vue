@@ -1,14 +1,10 @@
 <script setup>
-defineProps([
-  'important'
-])
+defineProps(['important'])
 </script>
 
 <template>
-  <div class="SideButton" :class="{'important' : important}">
-    <slot>
-
-    </slot>
+  <div class="SideButton" :class="{ important: important }">
+    <slot> </slot>
   </div>
 </template>
 

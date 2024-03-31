@@ -12,8 +12,7 @@ const isShown = ref(false)
   <div class="Spoiler" v-if="isShown">
     <h1>Spoiler</h1>
     <slot></slot>
-    <SideButton
-      @click="isShown = !isShown"><p>Back</p></SideButton>
+    <SideButton @click="isShown = !isShown"><p>Back</p></SideButton>
   </div>
 </template>
 
