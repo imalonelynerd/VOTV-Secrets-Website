@@ -31,6 +31,3 @@ coverage
 archive
 
 README.md.backup
-public/Images/*
-!public/Images/*.png
-!public/Images/Maps
