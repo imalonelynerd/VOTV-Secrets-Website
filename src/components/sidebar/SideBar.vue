@@ -12,13 +12,13 @@ const isShown = ref(false)
 const route = useRoute()
 const name = computed(() => route.name)
 
-watch(name, (newName) => (isShown.value = newName !== 'map'))
+watch(name, (newName) => (isShown.value = newName !== 'InteractiveMap'))
 </script>
 
 <template>
   <header class="SideBar" v-if="isShown === true">
     <div>
-      <SB @click="$router.push('/')">
+      <SB @click="$router.push('/HomePage')">
         <p>Home</p>
       </SB>
       <SB @click="$router.push('/ObjectsPage')">
@@ -41,7 +41,7 @@ watch(name, (newName) => (isShown.value = newName !== 'map'))
         <SB @click="$router.push('/SigGenSignals')">Sig Gen Signals</SB>
         <SB @click="$router.push('/OtherSignals')">Other Signals</SB>
       </SideFolder>
-      <SideFolder title="Events" >
+      <SideFolder title="Events">
         <SB @click="$router.push('/EventsPage')">[DIR]</SB>
         <SB @click="$router.push('/StoryModeEvents')">Storymode Events</SB>
         <SB @click="$router.push('/AriralRepEvents')">Ariral Rep Events</SB>

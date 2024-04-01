@@ -12,7 +12,7 @@ const Page = defineAsyncComponent({
   loadingComponent: Loading,
   delay: 0,
   errorComponent: Error,
-  timeout: 3000
+  timeout: 5000
 })
 </script>
 

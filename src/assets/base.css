@@ -5,6 +5,7 @@
   --hover2: #202020;
   --pressed: #404040;
   --pressed2: #101010;
+  --trans: rgba(0, 0, 0, 0.69);
   --border: 2px outset var(--border-color);
   --border-pressed: 2px inset var(--border-color);
   --text: white;

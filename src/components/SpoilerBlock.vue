@@ -19,14 +19,13 @@ const isShown = ref(false)
 <style>
 .Spoiler {
   position: absolute;
-  top: 64px;
-  left: 64px;
-  bottom: 64px;
-  right: 64px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 100;
-  padding: 16px;
-  background: var(--background);
-  border: var(--border);
+  padding: 32px 64px;
+  background: var(--trans);
   overflow: scroll;
   gap: 16px;
   display: flex;

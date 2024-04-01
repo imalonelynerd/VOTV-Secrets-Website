@@ -33,3 +33,5 @@ archive
 /public/Images/*
 !public/Images/Map
 !public/Images/*.png
+
+README.md.backup

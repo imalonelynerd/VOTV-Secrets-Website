@@ -21,7 +21,7 @@ npm run dev #vite
 ## TODO
 - [ ] finish placing all the markers
 - [ ] change header title on page change
-- [ ] change SoundListener's appearance
-- [ ] change ImageViewer appearance
+- [x] change SoundListener's appearance
+- [x] change ImageViewer appearance
 - [ ] check for arbo errors
-- [ ] general lint check
+- [x] general lint check
