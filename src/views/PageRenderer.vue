@@ -32,7 +32,7 @@ const Page = defineAsyncComponent({
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  align-items: stretch;
+  align-items: center;
   overflow: scroll;
   gap: 16px;
   background: url('/Images/Home.png') no-repeat center center;
@@ -74,6 +74,7 @@ const Page = defineAsyncComponent({
 }
 
 .PageRenderer table {
+  align-self: stretch;
   background: var(--hover2);
 }
 
@@ -81,8 +82,6 @@ const Page = defineAsyncComponent({
   font-size: 20px;
   padding: 16px;
   border: var(--border);
-  /*max-width: 200px;
-  overflow-wrap: break-word;*/
 }
 
 .PageRenderer tr {
@@ -107,6 +106,7 @@ const Page = defineAsyncComponent({
 }
 
 .PageRenderer pre {
+  align-self: stretch;
   white-space: pre-wrap;
   font-family: monospace;
   font-weight: bold;
