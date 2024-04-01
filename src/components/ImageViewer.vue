@@ -10,42 +10,50 @@ const x = ref(0)
 const y = ref(0)
 
 function getSize(img) {
-  x.value = img.width
-  y.value = img.height
+  x.value = img.naturalWidth
+  y.value = img.naturalHeight
 }
 </script>
 
 <template>
   <div class="ImageView" @click="isShown = !hasError">
-    <img :src="src" :alt="alt" @error="hasError = true" />
-    <img src="/Icons/expand.png" />
+    <img v-if="!hasError" :src="src" :alt="alt" @error="hasError = true" />
+    <img v-if="hasError" src="/Icons/404.png" alt="404" />
+    <img v-if="!hasError" src="/Icons/expand.png" alt="Expand..." />
   </div>
   <div class="ImageViewer" v-if="isShown">
     <img :src="src" :alt="alt" ref="image" @load="getSize($refs.image)" />
-    <p>Title : {{ title }}, Size : {{ x }} x {{ y }}</p>
+    <p>Title : {{ title === undefined || title === '' ? src : title }}, Size : {{ x }} x {{ y }}</p>
     <SideButton @click="isShown = false"><p>Back</p></SideButton>
   </div>
 </template>
 
 <style>
 .ImageView {
+  margin: 8px;
   width: 150px;
   height: 150px;
   border: var(--border);
   background: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
 .ImageView > img:first-of-type {
+  flex-grow: 1;
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  object-position: top;
+  height: 150px;
 }
 
-.ImageView > img:last-of-type {
+.ImageView > img:nth-of-type(2) {
   background: var(--background);
   border: var(--border);
   position: relative;
   height: 16px;
+  width: 16px;
   left: 122px;
   bottom: 32px;
 }
@@ -81,7 +89,9 @@ function getSize(img) {
 }
 
 .ImageViewer > img {
-  height: 100%;
+  min-height: 80%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .ImageViewer > p {

@@ -30,8 +30,6 @@ coverage
 *.tsbuildinfo
 archive
 
-/public/Images/*
-!public/Images/Map
-!public/Images/*.png
-
 README.md.backup
+public/Images/*
+!public/Images/*.png

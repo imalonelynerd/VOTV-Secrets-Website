@@ -25,3 +25,4 @@ npm run dev #vite
 - [x] change ImageViewer appearance
 - [ ] check for arbo errors
 - [x] general lint check
+- [ ] redo links

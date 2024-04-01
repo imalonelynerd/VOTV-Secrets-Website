@@ -21,7 +21,7 @@ function play() {
 <template>
   <div class="SoundCover" @click="play()" :class="{ playing: isPlaying }">
     <img src="/Icons/sound.png" />
-    <p>{{ isPlaying ? 'Stop' : title }}</p>
+    <p>{{ isPlaying ? 'Stop' : title !== undefined && title !== '' ? title : 'Play' }}</p>
   </div>
 </template>
 

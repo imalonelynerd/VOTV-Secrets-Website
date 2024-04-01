@@ -81,4 +81,16 @@ const Page = defineAsyncComponent({
   background: var(--background);
   border: var(--border);
 }
+
+.PageRenderer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  gap: 16px;
+}
+
+.PageRenderer hr {
+  width: 75%;
+}
 </style>
