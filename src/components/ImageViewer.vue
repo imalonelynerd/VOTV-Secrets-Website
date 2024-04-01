@@ -1,4 +1,6 @@
 <script setup>
+import { BASE_URL } from '@/assets/env.js'
+
 defineProps(['src', 'alt', 'title'])
 import SideButton from '@/components/sidebar/SideButton.vue'
 import { ref } from 'vue'
@@ -17,7 +19,7 @@ function getSize(img) {
 
 <template>
   <div class="ImageView" @click="isShown = !hasError">
-    <img v-if="!hasError" :src="src" :alt="alt" @error="hasError = true" />
+    <img v-if="!hasError" :src="`${BASE_URL}${src}`" :alt="alt" @error="hasError = true" />
     <img v-if="hasError" src="/Icons/404.png" alt="404" />
     <img v-if="!hasError" src="/Icons/expand.png" alt="Expand..." />
   </div>
