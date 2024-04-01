@@ -1,7 +1,7 @@
 <script setup>
-import SpoilerBlock from '@/components/SpoilerBlock.vue'
-import SoundListener from '@/components/SoundListener.vue'
-import ImageViewer from '@/components/ImageViewer.vue'
+import SpoilerBlock from '@/components/widgets/SpoilerBlock.vue'
+import SoundListener from '@/components/widgets/SoundListener.vue'
+import ImageViewer from '@/components/widgets/ImageViewer.vue'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup>
-import ImageViewer from '@/components/ImageViewer.vue'
+import ImageViewer from '@/components/widgets/ImageViewer.vue'
 </script>
 
 <template>

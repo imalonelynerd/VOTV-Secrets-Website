@@ -13,10 +13,11 @@ defineProps(['important'])
   border: var(--border);
   padding: 8px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  gap: 8px;
   background: var(--background);
 }
 

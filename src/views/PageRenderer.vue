@@ -2,10 +2,22 @@
 import { defineAsyncComponent } from 'vue'
 import { useRoute } from 'vue-router'
 import Error from '@/components/states/ErrorPage.vue'
-import Credits from '@/components/states/CreditsPage.vue'
+import Credits from '@/components/states/NoticePage.vue'
 import Loading from '@/components/states/LoadingPage.vue'
 
 const route = useRoute()
+
+function scrollToId(bookmark) {
+  let e = document.getElementById(bookmark)
+  let w = document.querySelector('.PageRenderer')
+  if (e && w) {
+    w.scrollTo({
+      top: e.offsetTop,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+}
 
 const Page = defineAsyncComponent({
   loader: () => import(`@/pages/${route.params.id}.vue`),
@@ -14,6 +26,8 @@ const Page = defineAsyncComponent({
   errorComponent: Error,
   timeout: 5000
 })
+
+setTimeout(() => scrollToId(route.hash.slice(1)), 250)
 </script>
 
 <template>
@@ -114,5 +128,13 @@ const Page = defineAsyncComponent({
   background: var(--terminal-bg);
   border: var(--border);
   color: var(--terminal);
+}
+
+.Inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
 }
 </style>

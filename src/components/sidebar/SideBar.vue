@@ -1,18 +1,24 @@
 <script setup>
 import SB from '@/components/sidebar/SideButton.vue'
 import { computed, ref, watch } from 'vue'
-import SideButtons from '@/components/sidebar/SideButtons.vue'
-import DiscordIcon from '@/components/icons/DiscordIcon.vue'
-import YouTubeIcon from '@/components/icons/YouTubeIcon.vue'
-import GitHubIcon from '@/components/icons/GitHubIcon.vue'
 import SideFolder from '@/components/sidebar/SideFolder.vue'
 import { useRoute } from 'vue-router'
+import { BASE_URL } from '@/assets/env.js'
 
 const isShown = ref(false)
+const badToTheBone = ref(5)
 const route = useRoute()
 const name = computed(() => route.name)
 
 watch(name, (newName) => (isShown.value = newName !== 'InteractiveMap'))
+
+function badToTheBoneEffect() {
+  new Audio(`${BASE_URL}/bone.mp3`).play()
+  setTimeout(() => {
+    document.getElementById('app').remove()
+    new Audio(`${BASE_URL}/boom.mp3`).play()
+  }, 3000)
+}
 </script>
 
 <template>
@@ -69,21 +75,13 @@ watch(name, (newName) => (isShown.value = newName !== 'InteractiveMap'))
       </SB>
     </div>
     <div>
-      <SB important="true">
+      <SB important="true" @click="badToTheBone = badToTheBone === 0 ? badToTheBoneEffect() : badToTheBone - 1">
         <p>Last updated : <b>0.7.0</b></p>
         <!-- fetchable ? -->
       </SB>
-      <SideButtons>
-        <template #1>
-          <GitHubIcon c="#FFFFFF" s="1em" />
-        </template>
-        <template #2>
-          <YouTubeIcon c="#FFFFFF" s="1em" />
-        </template>
-        <template #3>
-          <DiscordIcon c="#FFFFFF" s="1em" />
-        </template>
-      </SideButtons>
+      <SB @click="$router.push('/CreditsPage')">
+        <p>Credits</p>
+      </SB>
       <SB @click="isShown = false">
         <p>&lt;&lt;&lt;</p>
       </SB>

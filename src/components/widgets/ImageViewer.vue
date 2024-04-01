@@ -1,9 +1,9 @@
 <script setup>
 import { BASE_URL } from '@/assets/env.js'
-
-defineProps(['src', 'alt', 'title'])
 import SideButton from '@/components/sidebar/SideButton.vue'
 import { ref } from 'vue'
+
+defineProps(['src', 'alt', 'title'])
 
 const isShown = ref(false)
 const hasError = ref(false)
@@ -24,7 +24,7 @@ function getSize(img) {
     <img v-if="!hasError" src="/Icons/expand.png" alt="Expand..." />
   </div>
   <div class="ImageViewer" v-if="isShown">
-    <img :src="src" :alt="alt" ref="image" @load="getSize($refs.image)" />
+    <img :src="`${BASE_URL}${src}`" :alt="alt" ref="image" @load="getSize($refs.image)" />
     <p>Title : {{ title === undefined || title === '' ? src : title }}, Size : {{ x }} x {{ y }}</p>
     <SideButton @click="isShown = false"><p>Back</p></SideButton>
   </div>
