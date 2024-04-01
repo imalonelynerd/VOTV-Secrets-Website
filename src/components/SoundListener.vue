@@ -1,27 +1,29 @@
 <script setup>
-const props = defineProps(['src', 'title'])
+defineProps(['title'])
 import { ref } from 'vue'
 
 const isPlaying = ref(false)
 
-function play() {
+function play(audioPlayer) {
   if (!isPlaying.value) {
-    this.p = new Audio(props.src)
-    this.p.play()
+    audioPlayer.play()
     isPlaying.value = true
   } else {
-    this.p.pause()
-    this.p.currentTime = 0
-    this.position = 0
+    audioPlayer.pause()
+    audioPlayer.currentTime = 0
     isPlaying.value = false
   }
 }
 </script>
 
 <template>
-  <div class="SoundCover" @click="play()" :class="{ playing: isPlaying }">
-    <img src="/Icons/sound.png" />
+  <div class="SoundCover" @click="play($refs.theSound)" :class="{ playing: isPlaying }">
+    <img src="/Icons/sound.png" alt="Play button" />
     <p>{{ isPlaying ? 'Stop' : title !== undefined && title !== '' ? title : 'Play' }}</p>
+    <audio ref="theSound">
+      <slot> </slot>
+      Error
+    </audio>
   </div>
 </template>
 
@@ -32,10 +34,18 @@ function play() {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
   max-width: 100px;
   min-height: 100px;
+  max-height: 100px;
   border: var(--border);
   background: var(--background);
+}
+
+.SoundCover > audio {
+  display: none;
 }
 
 .SoundCover.playing {

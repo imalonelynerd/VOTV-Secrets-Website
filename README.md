@@ -23,6 +23,10 @@ npm run dev #vite
 - [ ] change header title on page change
 - [x] change SoundListener's appearance
 - [x] change ImageViewer appearance
+- [x] redo SoundListener's source bloc
+- [ ] reduce big message blocks (with span)
+- [ ] add back custom styling
 - [ ] check for arbo errors
+- [ ] add image grouping (with divs)
 - [x] general lint check
 - [ ] redo links

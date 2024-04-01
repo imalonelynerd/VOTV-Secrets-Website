@@ -30,7 +30,6 @@ function getSize(img) {
 
 <style>
 .ImageView {
-  margin: 8px;
   width: 150px;
   height: 150px;
   border: var(--border);
@@ -46,6 +45,8 @@ function getSize(img) {
   object-fit: cover;
   object-position: top;
   height: 150px;
+  min-height: 150px;
+  max-height: 150px;
 }
 
 .ImageView > img:nth-of-type(2) {

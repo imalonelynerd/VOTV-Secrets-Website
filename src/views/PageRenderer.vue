@@ -61,20 +61,32 @@ const Page = defineAsyncComponent({
   text-align: center;
 }
 
+.PageRenderer h4 {
+  font-size: 1.1em;
+  margin: 16px 0;
+  color: var(--h4);
+  text-align: center;
+}
+
 .PageRenderer p,
-.PageRenderer a,
-.PageRenderer tr {
+.PageRenderer a {
   font-size: 20px;
 }
 
 .PageRenderer table {
-  background: #202020;
-  font-size: 16px;
+  background: var(--hover2);
 }
 
 .PageRenderer td {
+  font-size: 20px;
   padding: 16px;
   border: var(--border);
+  /*max-width: 200px;
+  overflow-wrap: break-word;*/
+}
+
+.PageRenderer tr {
+  font-size: 16px;
 }
 
 .PageRenderer th {
@@ -92,5 +104,15 @@ const Page = defineAsyncComponent({
 
 .PageRenderer hr {
   width: 75%;
+}
+
+.PageRenderer pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 32px;
+  background: var(--terminal-bg);
+  border: var(--border);
+  color: var(--terminal);
 }
 </style>

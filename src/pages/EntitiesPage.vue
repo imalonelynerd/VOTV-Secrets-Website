@@ -27,9 +27,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="ab">Antibreather</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="1">
         Spawns near Romeo, in Antibreather Cave at night, then eventually despawns in the morning
         time.
@@ -47,9 +45,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="ariral">Ariral</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td id="3">
         Can be triggered by either the
         <a href="../Events/storymodeeventswiki.html#stalker">Ariral Stalker Event</a>,
@@ -107,9 +103,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="wendi">Furfur</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="5">
         Can be triggered by any toilet use at exactly 3:33 am, anywhere in the world, or anywhere in
         the
@@ -132,9 +126,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="hangedman">Hanged Man</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="7">Located under a bridge near Oscar Satellite Dish and the Lake.</td>
       <td id="8">
         A shadow of a hanged man. Stationary, never moves. To ensure you seem him, you must enable
@@ -146,9 +138,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="fossil">Fossilhound</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td>Random spawn.</td>
       <td id="9">
         Fossilhound is an extremely aggressive dog-like creature, appearing at nights behind the
@@ -169,9 +159,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="insomni">Insomnia Demon</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="10">Once triggered it usually spawns in the dark corners near the player.</td>
       <td id="11">
         A tall transparent figure with big white eyes that appears after players sleep goes lower
@@ -184,9 +172,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="wolfgang">Wolfgang</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="12">
         Can spawn randomly or be manually spawned by placing a pumpkin in the AB Cave.
       </td>
@@ -201,9 +187,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="rufus">Rufus</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="14">
         Spawned only by a
         <a href="../ConsoleCommands/consolecommandswiki.html#rufus">Console Command</a>.
@@ -226,9 +210,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="thiccfus">Thiccfus</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="16">
         Spawned only by a
         <a href="../ConsoleCommands/consolecommandswiki.html#thiccfus">Console Command</a>.
@@ -250,9 +232,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="fridge">Fridge</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="18">Outside the barrier.</td>
       <td id="19">
         Fridge is a black shadow-like figure. If a player illegally gets out or noclips out of the
@@ -265,9 +245,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="walkingtree">Walking Tree</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td>Random spawn.</td>
       <td id="20">
         A Walking Tree entity is a tree that moves. It moves when the player is not looking.
@@ -282,9 +260,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="liveerie">Live Erie</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td>
         Grab
         <a href="../Objects/objectswiki.html#11">Erie Plush Object</a>
@@ -308,9 +284,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="cockroach">Cockroach</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="22">Triggered by any food that is left open.</td>
       <td id="23">
         A small bug that searches for any food out in the open, it will eat it and grow, overtime
@@ -323,9 +297,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="wasps">Wasps</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td id="24">Dig up a waspnest, shake it, or damage it in any way.</td>
       <td id="25">
         A small bug that cannot be damaged or interacted, it comes in swarms and will continously
@@ -339,9 +311,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="drone">Drone</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="26">Either at Main Base or Drone starting point.</td>
       <td id="27">
         A flying drone that delivers items and objects from Main Base to the researchers in the
@@ -353,9 +323,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="fireflies">Fireflies</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td>Random spawn, at night.</td>
       <td id="28">A swarm of bright yellow bugs that can illuminate the darkness for you.</td>
       <td>
@@ -365,9 +333,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="fish">Fish</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="29">Use a fishing rod.</td>
       <td id="30">
         It can come in many different variations, sizes, shapes, and colors. Just flops around, is
@@ -379,9 +345,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="kavotia">Kavotia</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="31">
         Can be spawned manually through sandbox props or can spawn naturally around The Hole
         structure during the Rozital Hole Event.
@@ -410,11 +374,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="firewisp">Fire Wisp</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td id="33">
-        <span>Random spawn</span>, spawns once in
+        Random spawn, spawns once in
         <a href="../Worlds/testlevelswiki.html#133">untitled_133</a>.
       </td>
       <td id="34">
@@ -429,12 +391,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="redwisp">Red Wisp</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
-      <td>
-        <span>Random spawn.</span>
-      </td>
+      <td>Aggressive</td>
+      <td>Random spawn.</td>
       <td id="35">
         A floating red star-like entity that quickly flashes between locations, it moves incredibily
         fast and is almost impossible to escape. It is very aggressive around the player, it will
@@ -449,9 +407,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="greenwisp">Green Wisp</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="36">Can spawn randomly at night.</td>
       <td id="37">
         The Green Wisp is another wisp variant but green. When it travels around, it will leave a
@@ -465,9 +421,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="pinkwisp">Pink Wisp</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="38">
         Spawns anywhere during
         <a href="../Events/randomeventswiki.html#pinkwisps">Pink Wisps Event</a>.
@@ -481,12 +435,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="whitewisp">White Wisp</td>
-      <td>
-        <span>Neutral</span>
-      </td>
-      <td>
-        <span>Random spawn.</span>
-      </td>
+      <td>Neutral</td>
+      <td>Random spawn.</td>
       <td id="40">
         White wisp is a another wisp variant except completely white. The White Wisp will chase
         after or follow the player, it moves around randomly. If the player encounters or interacts
@@ -499,12 +449,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="blackwisp">Black Wisp</td>
-      <td>
-        <span>Passive</span>
-      </td>
-      <td>
-        <span>Random spawn.</span>
-      </td>
+      <td>Passive</td>
+      <td>Random spawn.</td>
       <td id="41">
         Black wisp is a another wisp variant except completely black. It has a warping effect around
         it in the shape of a sphere. The Black Wisp will not chase after or follow the player, it
@@ -518,12 +464,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="ogwisp">Orange Wisp</td>
-      <td>
-        <span>Passive</span>
-      </td>
-      <td>
-        <span>Random spawn.</span>
-      </td>
+      <td>Passive</td>
+      <td>Random spawn.</td>
       <td id="42">
         Orange wisp is a another wisp variant except completely orange and a little smaller. This
         wisp can chase and follow the player sometimes, when touched the player will teleport to a
@@ -537,12 +479,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="purplewisp">Purple Wisp</td>
-      <td>
-        <span>Passive</span>
-      </td>
-      <td>
-        <span>Random spawn.</span>
-      </td>
+      <td>Passive</td>
+      <td>Random spawn.</td>
       <td id="43">
         Purple Wisp is a another wisp variant except completely purple and less intact. It will
         leave a little trail of its essence as it moves. When the entity touches the player, it will
@@ -558,9 +496,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="kwisp">Killer Wisp</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="44">
         Random spawn, after
         <a href="../Events/storymodeeventswiki.html#obelisk">Obelisk Event</a>.
@@ -578,9 +514,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="shadow">Shadow Man</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td>Random spawn, entity name is NewBlueprint5_C.</td>
       <td id="46">
         A black shadow-like figure that moves incredibly fast around the player, in the newer
@@ -595,9 +529,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="piramid">Piramid</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="47">
         Triggered by the
         <a href="../Events/storymodeeventswiki.html#piramid">Piramid Event</a>.
@@ -622,9 +554,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="jellyfish">Jellyfish</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="49">
         Spawns during the
         <a href="../Events/randomeventswiki.html#jellyfish">Jellyfish Event</a>.
@@ -639,9 +569,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="deer">Deer</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td>Random spawn.</td>
       <td id="51">
         An animal that spawns very often, the Deer can be seen strolling around the forest, however
@@ -655,9 +583,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="undeaddeer">Undead Deer</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="52">
         Spawns during the
         <a href="../Events/triggerableeventswiki.html#undeaddeer">Undead Deer Event</a>.
@@ -678,9 +604,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="eg">EG</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="54">
         Random spawn, spawns once in
         <a href="../Worlds/anomalyworldswiki.html#87">untitled_87</a>.
@@ -696,9 +620,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="soltomia">Soltomia</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="56">
         Spawns either at the bottom of the
         <a href="../Structures/structureswiki.html#thehole">The Hole</a>
@@ -717,9 +639,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="shtduende">Shit Duende</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="58">
         Spawns during the
         <a href="../Events/triggerableeventswiki.html#shtduende">Shit Duende Event</a>.
@@ -735,9 +655,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="blackfuzzy">Black Fogling</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="60">
         Will spawn once
         <a href="../Events/randomeventswiki.html#blackfog">Black Fog Event</a>.
@@ -767,9 +685,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="tentacle">Tentacle Balls</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td id="62">
         Will spawn once
         <a href="../Events/storymodeeventswiki.html#rpe">Rozital Patrol Event</a>.
@@ -796,11 +712,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="lambert">Evil Lambert</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="64">
-        <span>Innaccessible</span>, only spawns in
+        Innaccessible, only spawns in
         <a href="../Worlds/anomalyworldswiki.html#untitled_87">untitled_87</a>.
       </td>
       <td id="65">
@@ -816,9 +730,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="movingman">Moving Mannequin</td>
-      <td>
-        <span>Neutral</span>
-      </td>
+      <td>Neutral</td>
       <td id="66">
         After spawning or buying a mannequin you must wait enough time for its pole to be removed.
       </td>
@@ -836,11 +748,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="grey">Cutout Greys</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="68">
-        <span>Innaccessible</span>, spawns rapidly in
+        Innaccessible, spawns rapidly in
         <a href="../Worlds/anomalyworldswiki.html#51">Area 51</a>.
       </td>
       <td id="69">
@@ -857,11 +767,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="tripod">Tripod</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="70">
-        <span>Innaccessible</span>, only spawns in
+        Innaccessible, only spawns in
         <a href="../Worlds/anomalyworldswiki.html#untitled_87">untitled_87</a>.
       </td>
       <td id="71">
@@ -878,12 +786,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="tan">Tanneul</td>
-      <td>
-        <span>Passive</span>
-      </td>
-      <td>
-        <span>Innaccessible.</span>
-      </td>
+      <td>Passive</td>
+      <td>Innaccessible.</td>
       <td id="72">
         A type of a tree spirit, is a tall orange and brown figure that can be seen only using a
         digital or security camera. It can be found wandering around the world randomly. While the
@@ -898,9 +802,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="spiderarg">Spider Argemia</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="73">
         Spawns in multiple levels and places:
         <a href="../Worlds/anomalyworldswiki.html#untitled_61">untitled_61</a>,
@@ -919,11 +821,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="beanie">Bean Goombas</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="75">
-        <span>Innaccessible</span>, only spawns twice in
+        Innaccessible, only spawns twice in
         <a href="../Worlds/anomalyworldswiki.html#untitled_42">untitled_42</a>.
       </td>
       <td id="76">
@@ -936,11 +836,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="ballsack">Dr Ballsack</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="77">
-        <span>Innaccessible</span>, only spawns in
+        Innaccessible, only spawns in
         <a href="../Worlds/testlevelswiki.html#81">untitled_81</a>.
       </td>
       <td id="78">
@@ -954,11 +852,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="cursedarg1">Stalker Plush</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="79">
-        <span>Innaccessible</span>, only spawns in a horde in
+        Innaccessible, only spawns in a horde in
         <a href="../Worlds/testlevelswiki.html#18">untitled_18</a>.
       </td>
       <td id="80">
@@ -975,11 +871,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="cursedarg2">Schizophreniac Plush</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="81">
-        <span>Innaccessible</span>, only spawns twice in
+        Innaccessible, only spawns twice in
         <a href="../Worlds/anomalyworldswiki.html#untitled_104">untitled_104</a>.
       </td>
       <td id="82">
@@ -992,9 +886,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="dmann">Dream Mannequin</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="83">Spawns rapidly in the Mannequin Dream.</td>
       <td id="84">
         The Dream Mannequin is exactly the same as the normal immovable ones that you find at the
@@ -1007,9 +899,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="whitem">White Mist</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="85">
         Spawns once in the
         <a href="../Dreams/dreamswiki.html#rundream">Corridor Dream</a>.
@@ -1025,9 +915,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="anomalwat">Anomalous Water</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="87">
         Spawns once in the
         <a href="../Dreams/dreamswiki.html#drowndream">Fill Dream</a>,
@@ -1044,9 +932,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="dreamufo">Dream UFO</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="89">
         Will spawn overhead in the sky during the
         <a href="../Dreams/dreamswiki.html#ufodream">UFO Dream</a>.
@@ -1058,9 +944,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="dreamwendi">Dream Furfur</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="91">
         4 of them will spawn side by side during the
         <a href="../Dreams/dreamswiki.html#wendidream">Furfur Dream</a>.
@@ -1075,9 +959,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="duende">Duende</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="93">Type alien in the Command Console in VOTV Gray Edition.</td>
       <td id="94">
         The earliest version of the Grey, representative of the Greys race within the MrDrNose
@@ -1097,9 +979,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="grayufo">Gray UFO</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="95">
         Replaces the Drone entity and can spawn whenever the player enters the ATV in VOTV Gray
         Edition.
@@ -1117,9 +997,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="greenie">Green Alien</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="97">Replaces the <a href="#ariral">Ariral Entity</a> VOTV Gray Edition.</td>
       <td id="98">
         A green humanoid with a UFO diaper and emits warped alien baby noises. It runs significantly
@@ -1133,9 +1011,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="skeleo">SKELEO</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="99">
         Only spawns once at the end of the
         <a href="../Events/triggerableeventswiki.html#halloween">Halloween Event</a>
@@ -1156,9 +1032,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="bs">BS</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="101">
         Random spawn, near
         <a href="../Structures/structureswiki.html#stonehenge">Stonehenge Landmark</a>, at night.
@@ -1177,10 +1051,8 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="headboi">Cursed Ariral Head</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
-      <td id="103"><span>Innaccessible</span>, entity name is NewBlueprint7_C.</td>
+      <td>Aggressive</td>
+      <td id="103">Innaccessible, entity name is NewBlueprint7_C.</td>
       <td id="104">
         Has the head and shape of an Ariral head, however its eyes appear to be gouged out, its
         mouth carved out, its jaw elongated and stretched out, and the head is relatively large
@@ -1196,11 +1068,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="spider">Cursed Spider</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="105">
-        <span>Innaccessible</span>, only appears in
+        Innaccessible, only appears in
         <a href="../Worlds/testlevelswiki.html#112">untitled_112</a>
         and
         <a href="../Worlds/otherworldswiki.html#tutorial3">tutorial3</a>.
@@ -1215,11 +1085,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="grayboar">Gray Boar</td>
-      <td>
-        <span>Aggressive</span>
-      </td>
+      <td>Aggressive</td>
       <td id="107">
-        <span>Innaccessible</span>, only appears in
+        Innaccessible, only appears in
         <a href="../Worlds/testlevelswiki.html#142">untitled_142</a>.
       </td>
       <td id="108">
@@ -1238,9 +1106,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="poolrooms">Poolrooms Entity</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="109">
         Spawns only in the basic props interactivity tutorial in
         <a href="../Worlds/otherworldswiki.html#tutorial3">tutorial3</a>.
@@ -1257,9 +1123,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="mountain">Mountain Guys</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="111">
         Very rare spawn, usually spawns on the mountain range in OOB (Out of Bounds) area.
       </td>
@@ -1270,9 +1134,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="chimey">Chimey</td>
-      <td>
-        <span>Passive</span>
-      </td>
+      <td>Passive</td>
       <td id="113">Very rare spawn, only during thunderous rain.</td>
       <td id="114">
         A chime sound similar to the one heard from the
@@ -1286,7 +1148,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
         spawn.
       </td>
       <td>
-        <SoundListener src="/Images/Entities/103.mp3" />
+        <SoundListener>
+          <source src="/Images/Entities/103.mp3" />
+        </SoundListener>
       </td>
     </tr>
   </table>

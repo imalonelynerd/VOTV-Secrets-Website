@@ -19,9 +19,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_27">untitled_27</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
-  <h4>Entities: <span>None</span></h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>How to access: Inaccessible</h4>
+  <h4>Entities: None</h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="1">This map is extremely small and is the backrooms level 0.</p>
 
@@ -31,12 +31,12 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_42">untitled_42</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
+  <h4>How to access: Inaccessible</h4>
   <h4 id="2">
     Entities:
-    <span><a href="../Entities/entitieswiki.html#beanie">Bean Goombas</a></span>
+    <a href="../Entities/entitieswiki.html#beanie">Bean Goombas</a>
   </h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="3">
     A platformer minigame level, the player's camera is faced towards a 2d platformer game. The
@@ -51,12 +51,12 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_61">untitled_61</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
+  <h4>How to access: Inaccessible</h4>
   <h4 id="4">
     Entities:
-    <span><a href="../Entities/entitieswiki.html#spiderarg">Spider Argemia</a></span>
+    <a href="../Entities/entitieswiki.html#spiderarg">Spider Argemia</a>
   </h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="5">
     A large map that consists of multiple rooms, hallways, and corridors. This level is very simliar
@@ -143,14 +143,13 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
 
   <h3 id="untitled_83">untitled_83</h3>
   <h4 id="6">
-    How to access:
-    <span>To access you must noclip in the ground or perform the command console glitch</span>
+    How to access: To access you must noclip in the ground or perform the command console glitch
   </h4>
   <h4 id="7">
     Entities:
-    <span><a href="../Entities/entitieswiki.html#wendi">Furfur</a></span>
+    <a href="../Entities/entitieswiki.html#wendi">Furfur</a>
   </h4>
-  <h4>Events: <span></span></h4>
+  <h4>Events:</h4>
   <h4>Description:</h4>
   <p id="8">
     This level appears to be the backrooms level 6 or the lights out level. Once there, it is very
@@ -166,15 +165,13 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_87">untitled_87</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
+  <h4>How to access: Inaccessible</h4>
   <h4 id="9">
     Entities:
-    <span
-      ><a href="../Entities/entitieswiki.html#eg">EG</a>,
-      <a href="../Entities/entitieswiki.html#tripod">Tripod</a></span
-    >
+    <a href="../Entities/entitieswiki.html#eg">EG</a>,
+    <a href="../Entities/entitieswiki.html#tripod">Tripod</a>
   </h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="10">
     A large dark map with an
@@ -196,12 +193,12 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_104">untitled_104</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
+  <h4>How to access: Inaccessible</h4>
   <h4 id="12">
     Entities:
-    <span><a href="../Entities/entitieswiki.html#cursedarg2">Schizophreniac Plush</a></span>
+    <a href="../Entities/entitieswiki.html#cursedarg2">Schizophreniac Plush</a>
   </h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="13">
     A semi-large map that is a completely flat or blank grass map. The fog density is increased
@@ -216,15 +213,12 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
 
   <h3 id="untitled_129">untitled_129</h3>
   <h4 id="14">
-    How to access:
-    <span
-      >Access by performing the
-      <a href="../Events/triggerableeventswiki.html#well">Abandoned Well Event</a>
-      event</span
-    >
+    How to access: >Access by performing the
+    <a href="../Events/triggerableeventswiki.html#well">Abandoned Well Event</a>
+    event
   </h4>
-  <h4>Entities: <span>None</span></h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Entities: None</h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="15">
     This map is a dark map that drains your flashlight to zero, it spawns you with a lighter and in
@@ -272,14 +266,11 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
 
   <h3 id="untitled_9999">untitled_9999</h3>
   <h4 id="16">
-    How to access:
-    <span
-      >Access this by performing the
-      <a href="../Events/triggerableeventswiki.html#hellopen">Hell Opening Event</a></span
-    >
+    How to access: >Access this by performing the
+    <a href="../Events/triggerableeventswiki.html#hellopen">Hell Opening Event</a>
   </h4>
-  <h4>Entities: <span>None</span></h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Entities: None</h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="17">
     This map, also known as the hell dimension, is an extremely dark and slightly foggy map.
@@ -321,12 +312,12 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="51">51</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
+  <h4>How to access: Inaccessible</h4>
   <h4 id="18">
     Entities:
-    <span><a href="../Entities/entitieswiki.html#grey">Cutout Greys</a></span>
+    <a href="../Entities/entitieswiki.html#grey">Cutout Greys</a>
   </h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="19">
     This map, also known as the Area 51, is a defenders minigame map. With the goal of defending
@@ -352,9 +343,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_125">untitled_125</h3>
-  <h4>How to access: <span>Inaccessible</span></h4>
-  <h4>Entities: <span>None</span></h4>
-  <h4>Events: <span>None</span></h4>
+  <h4>How to access: Inaccessible</h4>
+  <h4>Entities: None</h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="23">This map is very similar to the playground map however much darker.</p>
 
@@ -364,12 +355,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <hr />
 
   <h3 id="untitled_152">untitled_152</h3>
-  <h4 id="24">
-    How to access:
-    <span>Access this by performing the Wolfgang Awakening Event.</span>
-  </h4>
-  <h4>Entities: <span>None</span></h4>
-  <h4>Events: <span>None</span></h4>
+  <h4 id="24">How to access: Access this by performing the Wolfgang Awakening Event.</h4>
+  <h4>Entities: None</h4>
+  <h4>Events: None</h4>
   <h4>Description:</h4>
   <p id="24">
     Branched out cave system that has stalagmites and stalagtites, goes up or down, can be difficult

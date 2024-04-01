@@ -10,9 +10,9 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
   <ImageViewer src="/Icons/Promo.png" title="Title" />
   <ImageViewer src="/awa" alt="This is an extremely long alt" />
   <h2>SoundListener</h2>
-  <SoundListener src="/thepenis.mp3" title="Eek !" />
+  <SoundListener title="Eek !">
+    <source src="/thepenis.mp3" />
+  </SoundListener>
   <h2>SpoilerBlock</h2>
   <SpoilerBlock> This is a spoiler. </SpoilerBlock>
 </template>
-
-<style scoped></style>

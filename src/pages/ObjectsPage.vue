@@ -185,7 +185,7 @@ import SpoilerBlock from '@/components/SpoilerBlock.vue'
     </tr>
     <tr>
       <td id="abfriend">AB friend</td>
-      <td><span>Innaccessible.</span></td>
+      <td>Innaccessible.</td>
       <td id="21">
         A small purple crystal with the ERROR overlay on it. It is able to move and jump around,
         there isn't anything that you can interact with, with this object. It makes noises similar

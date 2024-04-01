@@ -16,5 +16,3 @@
     </li>
   </ul>
 </template>
-
-<style scoped></style>
