@@ -1,3 +1,9 @@
+<script setup>
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Home')
+</script>
+
 <template>
   <h1>Voices of the Void</h1>
   <h2>All Hidden Secrets and Easter Eggs</h2>

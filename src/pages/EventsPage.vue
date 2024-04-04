@@ -1,3 +1,9 @@
+<script setup>
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('[DIR] Events')
+</script>
+
 <template>
   <h1>Events</h1>
   <h2>Master Folder</h2>

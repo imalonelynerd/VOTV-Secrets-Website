@@ -1,13 +1,18 @@
 <script setup>
+import { BASE_URL } from '@/assets/tools.js'
+import { ref } from 'vue'
+
 defineProps(['x', 'y', 'img', 'tag', 'desc'])
+
+const isVisible = ref(false)
 </script>
 
 <template>
-  <div class="MapMarker marker" :id="tag" :style="`left: ${x}px; top: ${y}px;`">
-    <img :src="`/Icons/MapMarkers/${img}.png`" />
-    <div>
-      <slot></slot>
-    </div>
+  <div class="MapInfo" v-if="isVisible" @click="isVisible = false">
+    <slot></slot>
+  </div>
+  <div class="MapMarker" :id="tag" :style="`left: ${x}px; top: ${y}px;`">
+    <img :src="`${BASE_URL}/Icons/MapMarkers/${img}.png`" @click="isVisible = !isVisible" />
   </div>
 </template>
 
@@ -20,9 +25,7 @@ defineProps(['x', 'y', 'img', 'tag', 'desc'])
 }
 
 .MapMarker > img {
-  z-index: 94;
-  height: 32px !important;
-  width: 32px !important;
+  height: 36px;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -30,25 +33,23 @@ defineProps(['x', 'y', 'img', 'tag', 'desc'])
   transform: scale(1.2);
 }
 
-.MapMarker > div {
-  display: none;
-  z-index: 95;
-}
-
-.MapMarker:hover > div {
+.MapInfo {
+  position: fixed;
+  top: 8px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
   display: flex;
-  z-index: 95;
+  z-index: 100;
   flex-direction: column;
   justify-content: stretch;
   align-items: stretch;
   min-width: 200px;
-  position: absolute;
   padding: 8px;
   background-color: var(--background);
   border: var(--border);
 }
 
-.MapMarker > div > p {
+.MapInfo > p {
   margin: 0;
 }
 

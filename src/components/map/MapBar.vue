@@ -1,25 +1,29 @@
 <script setup>
 import SB from '@/components/sidebar/SideButton.vue'
 
-defineEmits(['ribbonClicked', 'tabToggled'])
+defineEmits(['ribbonClicked', 'tabToggled', 'allTabsToggled'])
 </script>
 
 <template>
   <div class="MapBar">
-    <!--
     <div class="RibbonContainer">
       <SB @click="$emit('ribbonClicked', 0)">
-        <img src="/icons/ribbon/left.png">
+        <img src="/Icons/RibbonMarkers/left.png" />
       </SB>
-      <SB @click="$emit('ribbonClicked',2)">
-        <img src="/icons/ribbon/center.png">
+      <SB @click="$emit('ribbonClicked', 2)">
+        <img src="/Icons/RibbonMarkers/center.png" />
       </SB>
       <SB @click="$emit('ribbonClicked', 1)">
-        <img src="/icons/ribbon/right.png">
+        <img src="/Icons/RibbonMarkers/right.png" />
       </SB>
     </div>
     <hr />
-    -->
+    <div>
+      <SB @click="$emit('allTabsToggled')">
+        <img src="/Icons/RibbonMarkers/all.png" />
+      </SB>
+    </div>
+    <hr />
     <div id="TabContainer">
       <SB @click="$emit('tabToggled', 'Bmarker')">
         <img src="/Icons/TabMarkers/2.png" />

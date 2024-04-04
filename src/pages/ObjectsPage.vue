@@ -1,6 +1,9 @@
 <script setup>
 import ImageViewer from '@/components/widgets/ImageViewer.vue'
 import SpoilerBlock from '@/components/widgets/SpoilerBlock.vue'
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Objects')
 </script>
 
 <template>

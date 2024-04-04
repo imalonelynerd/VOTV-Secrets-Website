@@ -7,3 +7,9 @@
     <a href="https://discord.gg/vzkMs8sH2z">Discord</a>.
   </p>
 </template>
+
+<script setup>
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Error')
+</script>

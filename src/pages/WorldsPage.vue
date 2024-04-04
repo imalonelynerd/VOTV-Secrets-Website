@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('[DIR] Worlds')
+</script>
 
 <template>
   <h1>Worlds</h1>

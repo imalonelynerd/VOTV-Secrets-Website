@@ -9,3 +9,7 @@ export function locationHref(href, newTab = true) {
   }
   a.click()
 }
+
+export function changeTitle(title, withSite = true) {
+  document.title = title + (withSite ? ' - Voices of the Void Secrets Archive' : '')
+}

@@ -2,6 +2,9 @@
 import SpoilerBlock from '@/components/widgets/SpoilerBlock.vue'
 import SoundListener from '@/components/widgets/SoundListener.vue'
 import ImageViewer from '@/components/widgets/ImageViewer.vue'
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Deep Space Signals')
 </script>
 
 <template>

@@ -19,14 +19,17 @@ npm run dev #vite
 7. redo links
 
 ## TODO
-- [ ] finish placing all the markers
-- [ ] change header title on page change
+- [x] finish placing all the markers
+- [x] change header title on page change
 - [x] change SoundListener's appearance
 - [x] change ImageViewer appearance
 - [x] redo SoundListener's source bloc
 - [ ] reduce big message blocks (with span)
 - [ ] add back custom styling
-- [ ] check for arbo errors
+- [x] check for arbo errors
 - [ ] add image grouping (with divs)
 - [x] general lint check
 - [ ] redo links
+- [ ] reimplement the "search" module
+- [ ] reimplement alignment buttons
+- [ ] remake markers icons

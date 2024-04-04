@@ -1,5 +1,8 @@
 <script setup>
 import ImageViewer from '@/components/widgets/ImageViewer.vue'
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Console Commands')
 </script>
 
 <template>

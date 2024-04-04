@@ -1,5 +1,5 @@
 <script setup>
-import { BASE_URL } from '@/assets/env.js'
+import { BASE_URL } from '@/assets/tools.js'
 import SideButton from '@/components/sidebar/SideButton.vue'
 import { ref } from 'vue'
 

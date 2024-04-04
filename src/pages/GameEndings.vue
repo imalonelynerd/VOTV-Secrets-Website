@@ -1,6 +1,9 @@
 <script setup>
 import SpoilerBlock from '@/components/widgets/SpoilerBlock.vue'
 import ImageViewer from '@/components/widgets/ImageViewer.vue'
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Game Endings')
 </script>
 
 <template>

@@ -3,7 +3,7 @@ import SB from '@/components/sidebar/SideButton.vue'
 import { computed, ref, watch } from 'vue'
 import SideFolder from '@/components/sidebar/SideFolder.vue'
 import { useRoute } from 'vue-router'
-import { BASE_URL } from '@/assets/env.js'
+import { BASE_URL } from '@/assets/tools.js'
 
 const isShown = ref(false)
 const badToTheBone = ref(5)
@@ -75,7 +75,10 @@ function badToTheBoneEffect() {
       </SB>
     </div>
     <div>
-      <SB important="true" @click="badToTheBone = badToTheBone === 0 ? badToTheBoneEffect() : badToTheBone - 1">
+      <SB
+        important="true"
+        @click="badToTheBone = badToTheBone === 0 ? badToTheBoneEffect() : badToTheBone - 1"
+      >
         <p>Last updated : <b>0.7.0</b></p>
         <!-- fetchable ? -->
       </SB>

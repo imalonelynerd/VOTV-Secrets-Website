@@ -20,3 +20,9 @@
     </li>
   </ul>
 </template>
+
+<script setup>
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('[DIR] Signals')
+</script>
