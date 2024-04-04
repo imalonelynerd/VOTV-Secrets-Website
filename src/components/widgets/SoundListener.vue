@@ -3,10 +3,18 @@ defineProps(['title'])
 import { ref } from 'vue'
 
 const isPlaying = ref(false)
+const progression = ref('0%')
 
 function play(audioPlayer) {
   if (!isPlaying.value) {
     audioPlayer.play()
+    audioPlayer.addEventListener('timeupdate', () => {
+      progression.value = Math.round(audioPlayer.currentTime / audioPlayer.duration * 100) + '%'
+      if (audioPlayer.ended) {
+        audioPlayer.currentTime = 0
+        isPlaying.value = false
+      }
+    })
     isPlaying.value = true
   } else {
     audioPlayer.pause()
@@ -21,7 +29,7 @@ function play(audioPlayer) {
     <img src="/Icons/sound.png" alt="Play button" />
     <p>{{ isPlaying ? 'Stop' : title !== undefined && title !== '' ? title : 'Play' }}</p>
     <audio ref="theSound">
-      <slot> </slot>
+      <slot></slot>
       Error
     </audio>
   </div>
@@ -49,7 +57,11 @@ function play(audioPlayer) {
 }
 
 .SoundCover.playing {
-  background: var(--hover2);
+  background: linear-gradient(to right, var(--hover2) v-bind(progression), var(--background) v-bind(progression));
+}
+
+.SoundCover.playing:hover {
+  background: linear-gradient(to right, var(--hover2) v-bind(progression), var(--hover) v-bind(progression));
 }
 
 .SoundCover:hover {

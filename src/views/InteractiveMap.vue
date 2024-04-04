@@ -3,6 +3,9 @@ import RibbonContainer from '@/components/map/MapBar.vue'
 import MM from '@/components/map/MapMarker.vue'
 import { onMounted, ref } from 'vue'
 import MapCoords from '@/components/map/MapCoords.vue'
+import { changeTitle } from '@/assets/tools.js'
+
+changeTitle('Interactive Map')
 
 function moveMapHorizontally(percentage) {
   let map = document.getElementById('map')
