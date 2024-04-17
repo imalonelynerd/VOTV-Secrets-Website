@@ -6,7 +6,8 @@ An attempt at remaking this [website](https://squarezeb.github.io/VOTV-Secrets-W
 
 ```bash
 npm install
-npm run dev #vite
+npm run dev
+#vite
 ```
 
 ## Page Cleanup steps :
@@ -24,12 +25,16 @@ npm run dev #vite
 - [x] change SoundListener's appearance
 - [x] change ImageViewer appearance
 - [x] redo SoundListener's source bloc
-- [ ] reduce big message blocks (with span)
+- [ ] replace every table with InfoCard (long !)
 - [ ] add back custom styling
 - [x] check for arbo errors
-- [ ] add image grouping (with divs)
+- [x] add image grouping (with divs)
 - [x] general lint check
 - [ ] redo links
 - [ ] reimplement the "search" module
 - [ ] reimplement alignment buttons
 - [ ] remake markers icons
+- [ ] terminal component
+- [ ] redo credits
+
+- **For Nerd, check your Notion for rest :3**

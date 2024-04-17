@@ -9,7 +9,7 @@ function play(audioPlayer) {
   if (!isPlaying.value) {
     audioPlayer.play()
     audioPlayer.addEventListener('timeupdate', () => {
-      progression.value = Math.round(audioPlayer.currentTime / audioPlayer.duration * 100) + '%'
+      progression.value = Math.round((audioPlayer.currentTime / audioPlayer.duration) * 100) + '%'
       if (audioPlayer.ended) {
         audioPlayer.currentTime = 0
         isPlaying.value = false
@@ -57,11 +57,19 @@ function play(audioPlayer) {
 }
 
 .SoundCover.playing {
-  background: linear-gradient(to right, var(--hover2) v-bind(progression), var(--background) v-bind(progression));
+  background: linear-gradient(
+    to right,
+    var(--hover2) v-bind(progression),
+    var(--background) v-bind(progression)
+  );
 }
 
 .SoundCover.playing:hover {
-  background: linear-gradient(to right, var(--hover2) v-bind(progression), var(--hover) v-bind(progression));
+  background: linear-gradient(
+    to right,
+    var(--hover2) v-bind(progression),
+    var(--hover) v-bind(progression)
+  );
 }
 
 .SoundCover:hover {

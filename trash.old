@@ -1,0 +1,31 @@
+.PageRenderer table {
+  align-self: stretch;
+  background: var(--hover2);
+}
+
+.PageRenderer td {
+  font-size: 20px;
+  padding: 16px;
+  border: var(--border);
+}
+
+.PageRenderer tr {
+  font-size: 16px;
+}
+
+.PageRenderer th {
+  background: var(--background);
+  border: var(--border);
+}
+
+.PageRenderer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  gap: 16px;
+}
+
+.PageRenderer hr {
+  width: 75%;
+}
