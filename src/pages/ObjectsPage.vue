@@ -39,7 +39,8 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
           the object ultimately disappears or is destroyed. This is most likely the Rozitals
           ensuring no lost technology is left behind especially on one like Earth.
         </p>
-      </SpoilerBlock></template>
+      </SpoilerBlock></template
+    >
     <template #3>
       <WidgetBundle>
         <ImageViewer src="/Images/Objects/1.png" alt="VOTV Archive Image" />

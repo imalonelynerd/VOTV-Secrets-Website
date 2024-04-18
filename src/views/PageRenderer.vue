@@ -90,12 +90,8 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
   margin: 0;
 }
 
-.Inline {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  gap: 16px;
+.PageRenderer a {
+  color: greenyellow;
 }
 
 .CardTitle {

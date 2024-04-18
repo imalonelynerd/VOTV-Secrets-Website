@@ -24,6 +24,10 @@ npm run dev
     - Objects
     - Entities
     - Endings
+    - Achievements
+    - Dreams
+    - Commands
+    - Structures
 - [ ] redo links
 - [ ] add back custom styling
 
@@ -41,6 +45,7 @@ npm run dev
 - [ ] remake markers icons
 - [x] terminal component
 - [x] redo credits
+- [ ] change CardInfo fold behaviour
 
 
 - **For Nerd, check your Notion for rest :3**

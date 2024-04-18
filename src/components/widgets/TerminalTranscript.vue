@@ -1,12 +1,9 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-<div class="TerminalTranscript">
-  <slot>
-  </slot>
-</div>
+  <div class="TerminalTranscript">
+    <slot> </slot>
+  </div>
 </template>
 
 <style scoped>
