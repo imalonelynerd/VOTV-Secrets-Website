@@ -32,7 +32,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/1.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/1.png"
           alt="VOTV Archive Image" />
@@ -49,7 +49,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/2.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column"
+      <WidgetBundle
         ><ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/2.png"
           alt="VOTV Archive Image" /><ImageViewer
@@ -65,7 +65,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/3.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/3.png"
           alt="VOTV Archive Image" />
@@ -82,7 +82,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/4.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/4.png"
           alt="VOTV Archive Image" />
@@ -99,7 +99,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/5.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/5.png"
           alt="VOTV Archive Image" />
@@ -116,7 +116,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/6.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/6.png"
           alt="VOTV Archive Image" />
@@ -133,7 +133,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/7.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/7.png"
           alt="VOTV Archive Image" />
@@ -150,7 +150,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/8.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/8.png"
           alt="VOTV Archive Image" />
@@ -168,7 +168,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
       </SoundListener>
     </template>
     <template #2>
-      <WidgetBundle orientation="column"
+      <WidgetBundle
         ><ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/9.png"
           alt="VOTV Archive Image" />
@@ -186,7 +186,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
       </SoundListener>
     </template>
     <template #2>
-      <WidgetBundle orientation="column"
+      <WidgetBundle
         ><ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/10.png"
           alt="VOTV Archive Image" />
@@ -215,7 +215,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/11.mp3" /> </SoundListener
     ></template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/11.png"
           alt="VOTV Archive Image" />
@@ -232,7 +232,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/12.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/12.png"
           alt="VOTV Archive Image" />
@@ -249,7 +249,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/13.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/13.png"
           alt="VOTV Archive Image" />
@@ -272,7 +272,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/14.mp3" /> </SoundListener
     ></template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/14.png"
           alt="VOTV Archive Image" />
@@ -289,7 +289,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/15.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/15.png"
           alt="VOTV Archive Image" />
@@ -306,7 +306,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/16.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/16.png"
           alt="VOTV Archive Image" />
@@ -323,7 +323,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/17.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/17.png"
           alt="VOTV Archive Image" />
@@ -340,7 +340,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/18.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/18.png"
           alt="VOTV Archive Image" />
@@ -357,7 +357,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/19.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/19.png"
           alt="VOTV Archive Image" />
@@ -374,7 +374,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/20.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/20.png"
           alt="VOTV Archive Image" />
@@ -395,7 +395,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
       </SpoilerBlock></template
     >
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/21.png"
           alt="VOTV Archive Image" />
@@ -417,7 +417,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/21.mp3" /> </SoundListener
     ></template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/22.png"
           alt="VOTV Archive Image"
@@ -431,7 +431,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/22.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/23.png"
           alt="VOTV Archive Image"
@@ -445,7 +445,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/23.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/24.png"
           alt="VOTV Archive Image" />
@@ -462,7 +462,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/24.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/25.png"
           alt="VOTV Archive Image"
@@ -476,7 +476,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/25.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/26.png"
           alt="VOTV Archive Image" />
@@ -493,7 +493,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/26.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/27.png"
           alt="VOTV Archive Image" />
@@ -510,7 +510,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/27.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/28.png"
           alt="VOTV Archive Image" />
@@ -529,7 +529,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
       </SoundListener>
     </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/29.png"
           alt="VOTV Archive Image" />
@@ -546,7 +546,7 @@ const hasNoSound = ['Signal', 'Raw Text/Description', 'Images']
         <source src="/Images/Signals/SignalAudio/DeepSpaceSignals/29.mp3" /> </SoundListener
     ></template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer
           src="/Images/Signals/SignalPictures/DeepSpaceSignals/30.png"
           alt="VOTV Archive Image" />

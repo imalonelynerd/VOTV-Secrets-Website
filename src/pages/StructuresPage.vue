@@ -104,7 +104,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Structures/7.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/79.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -255,7 +255,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Structures/21.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/22.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -271,7 +271,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Structures/23.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/24.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -417,7 +417,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p>
     </template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Structures/34.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/35.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -508,7 +508,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Structures/49.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/50.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -551,7 +551,7 @@ const structTitles = ['Structure', 'Description', 'Images']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Structures/55.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Structures/56.png" alt="VOTV Archive Image" />
       </WidgetBundle>

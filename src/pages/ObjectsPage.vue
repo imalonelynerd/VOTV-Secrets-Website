@@ -65,7 +65,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p>
     </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/5.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/6.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -80,7 +80,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/7.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/8.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -187,7 +187,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/12.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/18.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -206,7 +206,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/19.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/20.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -225,7 +225,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/21.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/22.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -308,7 +308,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/30.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/31.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -520,7 +520,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/43.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/44.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -537,7 +537,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/45.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/46.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -558,7 +558,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p>
     </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/47.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/48.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -687,7 +687,7 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
       </p></template
     >
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Objects/33.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/71.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>

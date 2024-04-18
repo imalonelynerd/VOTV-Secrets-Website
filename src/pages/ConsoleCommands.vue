@@ -60,7 +60,7 @@ const miscCommands = ['Command', 'Image']
       </p></template
     >
     <template #2
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/ConsoleCommands/3.png" alt="VOTV Archive Image" />
 
         <ImageViewer src="/Images/ConsoleCommands/4.png" alt="VOTV Archive Image" /> </WidgetBundle
@@ -121,7 +121,7 @@ const miscCommands = ['Command', 'Image']
       </p></template
     >
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/ConsoleCommands/7.png" alt="VOTV Archive Image" />
 
         <ImageViewer src="/Images/ConsoleCommands/8.png" alt="VOTV Archive Image" /> </WidgetBundle
@@ -337,7 +337,7 @@ const miscCommands = ['Command', 'Image']
     <template #0> <h3 class="CardTitle" id="21">Sv.target zulu</h3> </template>
     <template #1> <p id="46">Targets a server at point X: 9987.82, Y: 8021.53.</p> </template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/ConsoleCommands/30.png" alt="VOTV Archive Image" />
 
         <ImageViewer src="/Images/ConsoleCommands/31.png" alt="VOTV Archive Image" /> </WidgetBundle
@@ -347,7 +347,7 @@ const miscCommands = ['Command', 'Image']
     <template #0> <h3 class="CardTitle" id="22">Sv.target maxwell</h3> </template>
     <template #1> <p id="47">Targets a server at the Fake Maxwell Landmark.</p> </template>
     <template #2>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/ConsoleCommands/32.png" alt="VOTV Archive Image" />
 
         <ImageViewer src="/Images/ConsoleCommands/33.png" alt="VOTV Archive Image" /> </WidgetBundle

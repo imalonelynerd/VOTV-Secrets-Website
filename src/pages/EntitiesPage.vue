@@ -131,7 +131,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/4.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/5.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -224,7 +224,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/10.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/11.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -279,7 +279,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/14.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/15.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -308,7 +308,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/104.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/105.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -338,7 +338,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/18.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/19.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -363,7 +363,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       <p id="28">A swarm of bright yellow bugs that can illuminate the darkness for you.</p>
     </template>
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/24.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/25.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -399,7 +399,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/98.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/99.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -424,7 +424,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/26.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/27.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -444,7 +444,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/28.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/29.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -521,7 +521,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4
-      ><WidgetBundle orientation="column">
+      ><WidgetBundle>
         <ImageViewer src="/Images/Entities/95.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/97.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -539,7 +539,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="row">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/96.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/100.png" alt="VOTV Archive Image" />
 
@@ -640,7 +640,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/31.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/32.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -666,7 +666,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/33.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/34.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -687,7 +687,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/38.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/39.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -711,7 +711,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/46.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/94.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -732,7 +732,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/47.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/48.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -756,7 +756,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/84.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/85.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -792,7 +792,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </SpoilerBlock></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/93.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/87.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -815,7 +815,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/88.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/89.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -839,7 +839,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/41.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/42.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -884,7 +884,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/62.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/63.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -959,7 +959,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/66.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/67.png" alt="VOTV Archive Image" />
       </WidgetBundle>
@@ -984,7 +984,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/68.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/69.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1035,7 +1035,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/43.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/44.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1150,7 +1150,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/57.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/58.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1176,7 +1176,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/72.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/73.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1220,7 +1220,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/77.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/78.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1265,7 +1265,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/80.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/81.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -1287,7 +1287,7 @@ const entitiesCategory = ['Entity', 'Behavior', 'Spawn Conditions', 'Description
       </p></template
     >
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Entities/82.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Entities/83.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>

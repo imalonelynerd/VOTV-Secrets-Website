@@ -81,7 +81,7 @@ changeTitle('The Funny')
       </p>
     </template>
     <template #4>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Icons/Promo.png" title="Title" />
         <ImageViewer src="/Icons/Promo.png" title="Title" />
       </WidgetBundle>

@@ -142,7 +142,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="18">Extremely Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/11.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/12.png"
@@ -174,7 +174,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="22">Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/14.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/15.png"
@@ -208,7 +208,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="26">Uncommon</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/19.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/20.png"
@@ -227,7 +227,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="28">Uncommon</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/28.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/29.png"
@@ -304,7 +304,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="36">Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/31.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/32.png"
@@ -319,7 +319,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     </template>
     <template #2> <p id="38">Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/35.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/34.png"
@@ -334,7 +334,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     </template>
     <template #2> <p id="40">Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/36.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/37.png"
@@ -364,7 +364,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="44">Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/38.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/39.png"
@@ -411,7 +411,7 @@ const randomTitles = ['Event', 'Description', 'Rarity', 'Image']
     >
     <template #2> <p id="50">Extremely Rare</p> </template>
     <template #3>
-      <WidgetBundle orientation="column">
+      <WidgetBundle>
         <ImageViewer src="/Images/Events/RandomEvents/43.png" alt="VOTV Archive Image" />
         <ImageViewer
           src="/Images/Events/RandomEvents/44.png"
