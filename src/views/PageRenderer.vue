@@ -49,7 +49,7 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
-  overflow: scroll;
+  overflow: auto;
   gap: 32px;
   background: url('/Images/Home.png') no-repeat center center;
   background-size: cover;

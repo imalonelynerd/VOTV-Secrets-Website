@@ -119,7 +119,7 @@ function badToTheBoneEffect() {
 }
 
 .SideBar > div:first-of-type {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .revertHide {

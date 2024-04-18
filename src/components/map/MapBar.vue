@@ -83,7 +83,7 @@ defineEmits(['ribbonClicked', 'tabToggled', 'allTabsToggled'])
   flex-direction: column;
   align-items: center;
   justify-content: stretch;
-  overflow: scroll;
+  overflow: auto;
   gap: 2px;
 }
 
