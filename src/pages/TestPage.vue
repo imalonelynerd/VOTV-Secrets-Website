@@ -32,7 +32,33 @@ changeTitle('The Funny')
     <ImageViewer src="/Icons/404.png" title="Title" />
   </WidgetBundle>
   <h2>InfoCard</h2>
-  <InfoCard :categories="['Entity', 'Behavior', 'Spawn Conditions', 'Description', 'Images']">
+  <InfoCard :categories="['Entity', 'Behavior', 'Spawn Conditions', 'Description']">
+    <template #0>
+      <h3 class="CardTitle">Antibreather</h3>
+    </template>
+    <template #1>
+      <p>Passive</p>
+    </template>
+    <template #2>
+      <p>
+        Spawns near Romeo, in Antibreather Cave at night, then eventually despawns in the morning
+        time.
+      </p>
+    </template>
+    <template #3>
+      <p>
+        Antibreather (AB for short) is a quadrupedal entity that comes from a cave near the Romeo
+        satellite. A Rozital-based entity, resembling a human body with stitches all around his body
+        and metal legs (of which front pair look like a scythe blades). It comes every night
+        (sometimes even on day) from its cave, roaming aimlessly around and illuminating it's path
+        with a glowing white eyes.
+      </p>
+    </template>
+  </InfoCard>
+  <InfoCard
+    :categories="['Entity', 'Behavior', 'Spawn Conditions', 'Description', 'Images']"
+    :has-media="true"
+  >
     <template #0>
       <h3 class="CardTitle">Antibreather</h3>
     </template>
@@ -55,8 +81,7 @@ changeTitle('The Funny')
       </p>
     </template>
     <template #4>
-      <WidgetBundle>
-        <ImageViewer src="/Icons/Promo.png" title="Title" />
+      <WidgetBundle orientation="column">
         <ImageViewer src="/Icons/Promo.png" title="Title" />
         <ImageViewer src="/Icons/Promo.png" title="Title" />
       </WidgetBundle>

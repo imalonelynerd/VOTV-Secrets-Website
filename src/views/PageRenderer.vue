@@ -85,38 +85,7 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
 .PageRenderer p,
 .PageRenderer a {
   font-size: 20px;
-}
-
-.PageRenderer table {
-  align-self: stretch;
-  background: var(--hover2);
-}
-
-.PageRenderer td {
-  font-size: 20px;
-  padding: 16px;
-  border: var(--border);
-}
-
-.PageRenderer tr {
-  font-size: 16px;
-}
-
-.PageRenderer th {
-  background: var(--background);
-  border: var(--border);
-}
-
-.PageRenderer ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
-  gap: 16px;
-}
-
-.PageRenderer hr {
-  width: 75%;
+  margin: 0;
 }
 
 .PageRenderer pre {
@@ -136,5 +105,13 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
   justify-content: center;
   align-items: stretch;
   gap: 16px;
+}
+
+.CardTitle {
+  font-size: 40px !important;
+  margin: 0 !important;
+  color: var(--h1) !important;
+  text-align: left !important;
+  font-style: normal !important;
 }
 </style>
