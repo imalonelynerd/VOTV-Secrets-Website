@@ -28,6 +28,9 @@ npm run dev
     - Dreams
     - Commands
     - Structures
+    - 3:33AM Events
+    - Random Events
+    - Deep Space Events
 - [ ] redo links
 - [ ] add back custom styling
 
