@@ -10,7 +10,7 @@ npm run dev
 #vite
 ```
 
-## Page Cleanup steps :
+## Page Cleanup steps (deprecated):
 1. remove custom styling (beware IntelliJ's regex match !)
 2. edit image paths ([Page]/Images -> Images/[Page])
 3. replace every "Info" blocks with Spoilers (+ reformat spoiler content)
@@ -19,22 +19,28 @@ npm run dev
 6. remove useless divs
 7. redo links
 
+## Tasks for contributors
+- [ ] replace every table with InfoCard (long !)
+    - Objects
+    - Entities
+    - Endings
+- [ ] redo links
+- [ ] add back custom styling
+
 ## TODO
 - [x] finish placing all the markers
 - [x] change header title on page change
 - [x] change SoundListener's appearance
 - [x] change ImageViewer appearance
 - [x] redo SoundListener's source bloc
-- [ ] replace every table with InfoCard (long !)
-- [ ] add back custom styling
 - [x] check for arbo errors
 - [x] add image grouping (with divs)
 - [x] general lint check
-- [ ] redo links
 - [ ] reimplement the "search" module
 - [ ] reimplement alignment buttons
 - [ ] remake markers icons
-- [ ] terminal component
-- [ ] redo credits
+- [x] terminal component
+- [x] redo credits
+
 
 - **For Nerd, check your Notion for rest :3**

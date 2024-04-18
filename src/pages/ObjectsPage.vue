@@ -39,13 +39,11 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
           the object ultimately disappears or is destroyed. This is most likely the Rozitals
           ensuring no lost technology is left behind especially on one like Earth.
         </p>
-      </SpoilerBlock></template
-    >
+      </SpoilerBlock></template>
     <template #3>
       <WidgetBundle>
         <ImageViewer src="/Images/Objects/1.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/2.png" alt="VOTV Archive Image" />
-
         <ImageViewer src="/Images/Objects/3.png" alt="VOTV Archive Image" />
         <ImageViewer src="/Images/Objects/4.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
@@ -493,21 +491,22 @@ const objectsCategory = ['Object', 'Spawn Conditions', 'Description', 'Image']
           at the bottom which don't occur with the original SCP.
         </p>
       </SpoilerBlock>
-      </template>
-    <template #3><WidgetBundle>
-      <ImageViewer src="/Images/Objects/59.png" alt="VOTV Archive Image" />
+    </template>
+    <template #3
+      ><WidgetBundle>
+        <ImageViewer src="/Images/Objects/59.png" alt="VOTV Archive Image" />
 
-      <ImageViewer src="/Images/Objects/37.png" alt="VOTV Archive Image" />
-      <ImageViewer src="/Images/Objects/38.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/37.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/38.png" alt="VOTV Archive Image" />
 
-      <ImageViewer src="/Images/Objects/39.png" alt="VOTV Archive Image" />
-      <ImageViewer src="/Images/Objects/40.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/39.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/40.png" alt="VOTV Archive Image" />
 
-      <ImageViewer src="/Images/Objects/41.png" alt="VOTV Archive Image" />
-      <ImageViewer src="/Images/Objects/42.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/41.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/42.png" alt="VOTV Archive Image" />
 
-      <ImageViewer src="/Images/Objects/57.png" alt="VOTV Archive Image" />
-      <ImageViewer src="/Images/Objects/58.png" alt="VOTV Archive Image" /> </WidgetBundle
+        <ImageViewer src="/Images/Objects/57.png" alt="VOTV Archive Image" />
+        <ImageViewer src="/Images/Objects/58.png" alt="VOTV Archive Image" /> </WidgetBundle
     ></template>
   </InfoCard>
   <InfoCard :categories="objectsCategory" :has-media="true">

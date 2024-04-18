@@ -8,14 +8,16 @@ import Loading from '@/components/states/LoadingPage.vue'
 const route = useRoute()
 
 function scrollToId(bookmark) {
-  let e = document.getElementById(bookmark)
-  let w = document.querySelector('.PageRenderer')
-  if (e && w) {
-    w.scrollTo({
-      top: e.offsetTop,
-      left: 0,
-      behavior: 'smooth'
-    })
+  if (bookmark != '') {
+    let e = document.getElementById(bookmark)
+    let w = document.querySelector('.PageRenderer')
+    if (e && w) {
+      w.scrollTo({
+        top: e.offsetTop,
+        left: 0,
+        behavior: 'smooth'
+      })
+    }
   }
 }
 
@@ -48,7 +50,7 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
   justify-content: stretch;
   align-items: center;
   overflow: scroll;
-  gap: 16px;
+  gap: 32px;
   background: url('/Images/Home.png') no-repeat center center;
   background-size: cover;
 }
@@ -86,17 +88,6 @@ setTimeout(() => scrollToId(route.hash.slice(1)), 250)
 .PageRenderer a {
   font-size: 20px;
   margin: 0;
-}
-
-.PageRenderer pre {
-  align-self: stretch;
-  white-space: pre-wrap;
-  font-family: monospace;
-  font-weight: bold;
-  padding: 32px;
-  background: var(--terminal-bg);
-  border: var(--border);
-  color: var(--terminal);
 }
 
 .Inline {

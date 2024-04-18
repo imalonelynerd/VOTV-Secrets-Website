@@ -4,6 +4,7 @@ import GitHubIcon from '@/components/icons/GitHubIcon.vue'
 import YouTubeIcon from '@/components/icons/YouTubeIcon.vue'
 import { changeTitle, locationHref } from '@/assets/tools.js'
 import DiscordIcon from '@/components/icons/DiscordIcon.vue'
+import WidgetBundle from '@/components/widgets/WidgetBundle.vue'
 
 changeTitle('Credits')
 </script>
@@ -18,7 +19,7 @@ changeTitle('Credits')
   </p>
   <h2>Website</h2>
   <p>Original website &amp; Interactive Map by <b>SquareZeb</b></p>
-  <div class="Inline">
+  <WidgetBundle>
     <SideButton @click="locationHref('https://github.com/SquareZeb')">
       <GitHubIcon c="#FFFFFF" s="1.25em" />
       <p>GitHub</p>
@@ -31,9 +32,9 @@ changeTitle('Credits')
       <DiscordIcon c="#FFFFFF" s="1.25em" />
       <p>Discord</p>
     </SideButton>
-  </div>
+  </WidgetBundle>
   <p>VueJS "remake" by <b>Nerd</b></p>
-  <div class="Inline">
+  <WidgetBundle>
     <SideButton @click="locationHref('https://github.com/imalonelynerd')">
       <GitHubIcon c="#FFFFFF" s="1.25em" />
       <p>GitHub</p>
@@ -42,7 +43,7 @@ changeTitle('Credits')
       <img src="/Icons/folder.png" style="height: 1.25em; width: 1.25em" />
       <p>The Funny</p>
     </SideButton>
-  </div>
+  </WidgetBundle>
   <h2>Assets</h2>
   <p><b>Folder</b>, <b>Sound</b>, <b>404</b> icons by <b>Nerd</b>.</p>
   <p>
