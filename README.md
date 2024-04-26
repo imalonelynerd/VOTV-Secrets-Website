@@ -33,6 +33,7 @@ npm run dev
     - Deep Space Events
 - [ ] redo links
 - [ ] add back custom styling
+- [ ] new stuff ( from 05/04 onward )
 
 ## TODO
 - [x] finish placing all the markers
@@ -49,6 +50,6 @@ npm run dev
 - [x] terminal component
 - [x] redo credits
 - [ ] change CardInfo fold behaviour
-
+- [ ] better Scrollbars for Chrome
 
 - **For Nerd, check your Notion for rest :3**
