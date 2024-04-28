@@ -2,7 +2,16 @@
 import SideButton from '@/components/sidebar/SideButton.vue'
 import { ref } from 'vue'
 
-const props = defineProps(['categories', 'hasMedia'])
+const props = defineProps({
+  categories: {
+    type: Array,
+    required: true
+  },
+  hasMedia: {
+    type: Boolean,
+    default: false
+  }
+})
 
 const size = props.categories.length - 1
 const categ = props.hasMedia ? props.categories.slice(0, size) : props.categories

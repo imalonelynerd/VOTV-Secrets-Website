@@ -1,7 +1,12 @@
 <script setup>
 import { ref } from 'vue'
 
-defineProps(['title'])
+defineProps({
+  title: {
+    type: String,
+    required: true
+  }
+})
 
 const isHovered = ref(false)
 </script>
@@ -13,7 +18,7 @@ const isHovered = ref(false)
       <p>{{ title }}</p>
     </div>
     <div v-if="isHovered">
-      <slot> </slot>
+      <slot></slot>
     </div>
   </div>
 </template>

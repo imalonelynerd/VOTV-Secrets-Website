@@ -1,10 +1,15 @@
 <script setup>
-defineProps(['important'])
+defineProps({
+  important: {
+    type: Boolean,
+    default: false
+  }
+})
 </script>
 
 <template>
-  <div class="SideButton" :class="{ important: important }">
-    <slot> </slot>
+  <div class="SideButton" :class="{ isImportant: important }">
+    <slot></slot>
   </div>
 </template>
 
@@ -34,7 +39,7 @@ defineProps(['important'])
   margin: 0;
 }
 
-.SideButton.important > p {
+.SideButton.isImportant > p {
   color: #ff0000;
 }
 </style>

@@ -1,5 +1,14 @@
 <script setup>
-defineProps(['s', 'c'])
+defineProps({
+  s: {
+    type: String,
+    default: '64px'
+  },
+  c: {
+    type: String,
+    default: '#000000'
+  }
+})
 </script>
 
 <template>

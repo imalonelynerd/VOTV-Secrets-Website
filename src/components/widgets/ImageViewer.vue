@@ -3,7 +3,20 @@ import { BASE_URL } from '@/assets/tools.js'
 import SideButton from '@/components/sidebar/SideButton.vue'
 import { ref } from 'vue'
 
-defineProps(['src', 'alt', 'title'])
+defineProps({
+  src: {
+    type: String,
+    required: true
+  },
+  alt: {
+    type: String,
+    default: ''
+  },
+  title: {
+    type: String,
+    default: ''
+  }
+})
 
 const isShown = ref(false)
 const hasError = ref(false)
@@ -25,7 +38,7 @@ function getSize(img) {
   </div>
   <div class="ImageViewer" v-if="isShown">
     <img :src="`${BASE_URL}${src}`" :alt="alt" ref="image" @load="getSize($refs.image)" />
-    <p>Title : {{ title === undefined || title === '' ? src : title }}, Size : {{ x }} x {{ y }}</p>
+    <p>Title : {{ title === '' ? src : title }}, Size : {{ x }} x {{ y }}</p>
     <SideButton @click="isShown = false"><p>Back</p></SideButton>
   </div>
 </template>

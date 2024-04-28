@@ -1,5 +1,10 @@
 <script setup>
-defineProps(['title'])
+defineProps({
+  title: {
+    type: String,
+    default: 'Play'
+  }
+})
 import { ref } from 'vue'
 
 const isPlaying = ref(false)
@@ -27,7 +32,7 @@ function play(audioPlayer) {
 <template>
   <div class="SoundCover" @click="play($refs.theSound)" :class="{ playing: isPlaying }">
     <img src="/Icons/sound.png" alt="Play button" />
-    <p>{{ isPlaying ? 'Stop' : title !== undefined && title !== '' ? title : 'Play' }}</p>
+    <p>{{ isPlaying ? 'Stop' : title !== '' ? title : 'Play' }}</p>
     <audio ref="theSound">
       <slot></slot>
       Error

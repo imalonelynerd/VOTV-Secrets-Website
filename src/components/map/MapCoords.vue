@@ -1,5 +1,14 @@
 <script setup>
-defineProps(['x', 'y'])
+defineProps({
+  x: {
+    required: true,
+    type: String
+  },
+  y: {
+    required: true,
+    type: String
+  }
+})
 </script>
 
 <template>

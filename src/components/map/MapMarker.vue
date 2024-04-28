@@ -2,7 +2,29 @@
 import { BASE_URL } from '@/assets/tools.js'
 import { ref } from 'vue'
 
-defineProps(['x', 'y', 'img', 'tag', 'desc'])
+defineProps({
+  x: {
+    required: true,
+    type: String
+  },
+  y: {
+    required: true,
+    type: String
+  },
+  img: {
+    required: true,
+    type: String
+  },
+  tag: {
+    required: true,
+    type: String
+  },
+  desc: {
+    required: false,
+    type: String,
+    default: ''
+  }
+})
 
 const isVisible = ref(false)
 </script>

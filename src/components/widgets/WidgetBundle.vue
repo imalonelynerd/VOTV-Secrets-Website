@@ -1,24 +1,39 @@
 <script setup>
-const props = defineProps(['gap', 'orientation', 'position'])
-
-const fGap = props.gap === undefined ? '16px' : props.gap
-const fOri = props.orientation === undefined ? 'row' : props.orientation
-const fPos = props.position === undefined ? 'start' : props.position
+defineProps({
+  gap: {
+    type: String,
+    default: '16px'
+  },
+  orientation: {
+    type: String,
+    default: 'row',
+    validator(value) {
+      return ['column', 'row'].includes(value)
+    }
+  },
+  position: {
+    type: String,
+    default: 'start',
+    validator(value) {
+      return ['start', 'center', 'end', 'stretch'].includes(value)
+    }
+  }
+})
 </script>
 
 <template>
   <div class="WidgetBundle">
-    <slot> </slot>
+    <slot></slot>
   </div>
 </template>
 
 <style>
 .WidgetBundle {
   display: flex;
-  flex-direction: v-bind(fOri);
-  justify-content: v-bind(fPos);
+  flex-direction: v-bind(orientation);
+  justify-content: v-bind(position);
   align-items: center;
-  gap: v-bind(fGap);
+  gap: v-bind(gap);
   flex-wrap: wrap;
 }
 
